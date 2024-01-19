@@ -6,20 +6,20 @@
 	let paper_open = false;
 </script>
 
-<div style="display: flex; flex-wrap: wrap;">
+<div style="display: flex; flex-wrap: wrap; justify-content:center;">
 	<h1>Xiangpeng Hao</h1>
 	<h1>(he/him, pronunciations: Shyang-pung How)</h1>
+	<div style="margin-left: 0.5em;">Last update: Jan 2024.</div>
 </div>
-<div>Last update: Jan 2024.</div>
-<div style="display: flex; margin-top: 1em; flex-wrap: wrap; justify-content: space-between;">
+<div style="display: flex; margin-top: 1em; flex-wrap: wrap; justify-content: center;">
 	<div class="card">
 		<img src={portrait} alt="Xiangpeng on Rainer Mountain" style="width: 25em;" />
 		<p style="margin: -0.3em;">
-			(Rainier Mountain, <Tooltip content="hard" theme="hxp">skyline loop trail.</Tooltip>)
+			(Mt. Rainier, <Tooltip content="hard" theme="hxp">skyline loop trail.</Tooltip>)
 		</p>
 		<div style="max-width:100%;display: flex; justify-content: space-between; margin-top:1em;">
 			<div><a href="https://www.overleaf.com/read/ymxxygrjthhs#9631dc">CV</a></div>
-			<div><a href="https://haoxp.xyz">Personal life (Chinese)</a></div>
+			<div><a href="https://t.me/life_xiangpeng">Personal life (Chinese)</a></div>
 			<div><a href="https://github.com/XiangpengHao">GitHub</a></div>
 			<div><a href="https://www.linkedin.com/in/hao-xiangpeng/">LinkedIn</a></div>
 		</div>
@@ -158,6 +158,7 @@
 		padding: 0.5em;
 		border-radius: 1px;
 		margin-bottom: 1em;
+		margin-left: 0.5em;
 	}
 
 	h1 {
