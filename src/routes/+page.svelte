@@ -6,10 +6,13 @@
 	let paper_open = false;
 </script>
 
-<h1>Xiangpeng Hao (he/him, pronunciations: Shyang-pung How)</h1>
-
-<div style="display: flex;">
-	<div>
+<div style="display: flex; flex-wrap: wrap;">
+	<h1>Xiangpeng Hao</h1>
+	<h1>(he/him, pronunciations: Shyang-pung How)</h1>
+</div>
+<div>Last update: Jan 2024.</div>
+<div style="display: flex; margin-top: 1em; flex-wrap: wrap; justify-content: space-between;">
+	<div class="card">
 		<img src={portrait} alt="Xiangpeng on Rainer Mountain" style="width: 25em;" />
 		<p style="margin: -0.3em;">
 			(Rainier Mountain, <Tooltip content="hard" theme="hxp">skyline loop trail.</Tooltip>)
@@ -20,9 +23,8 @@
 			<div><a href="https://github.com/XiangpengHao">GitHub</a></div>
 			<div><a href="https://www.linkedin.com/in/hao-xiangpeng/">LinkedIn</a></div>
 		</div>
-		<div style="margin-top: 5em;">Last update: Jan 2024.</div>
 	</div>
-	<div style="margin-left: 2em; width: 30em; line-height: 150%">
+	<div class="card" style="width: 30em; line-height: 140%">
 		I'm a third year PhD student at the University of Wisconsin-Madison studying computer science
 		with a focus on <a href="http://www.jfsowa.com/ikl/Stonebraker.pdf">database/storage systems</a
 		>.<br />
@@ -77,12 +79,16 @@
 
 		Many many other people have helped me along the way. I'm grateful for all of them.
 	</div>
-	<div style="margin-left: 1em; width: 30em; line-height: 100%;">
-		While <Tooltip theme="hxp" content="... and being a reasonable person">building systems</Tooltip>, I <Tooltip theme="hxp" content="Not the reverse!">also</Tooltip><Tooltip theme="hxp"	content="Depends on luck and collaborators!">publish papers.</Tooltip>
+	<div class="card" style="width: 30em; line-height: 140%;">
+		While <Tooltip theme="hxp" content="... and being a reasonable person">building systems</Tooltip
+		><Tooltip theme="hxp" content="Not the reverse!">,</Tooltip>I <Tooltip
+			theme="hxp"
+			content="Depends on luck and collaborators!">publish papers.</Tooltip
+		>
 
 		<CollapsibleCard open={paper_open}>
 			<u slot="header">Click to show.</u>
-			<div slot="body" style="max-height: 50em; overflow: scroll; ">
+			<div slot="body" style="max-height: 30em; overflow: scroll; ">
 				<p>
 					Towards Buffer Management with Tiered Main Memory.<br />
 					<strong>Xiangpeng Hao</strong>, Xinjing Zhou, Xiangyao Yu, Michael Stonebraker. SIGMOD
@@ -115,7 +121,7 @@
 		</CollapsibleCard>
 
 		<hr />
-		<div style="line-height: 150%;">
+		<div>
 			Design axioms (in order of importance)
 			<ol>
 				<li>
@@ -145,5 +151,17 @@
 		--tooltip-offset-y: 5px !important;
 		--tooltip-padding: 8px;
 		--tooltip-offset-x: 5px;
+	}
+
+	.card{
+		border: 2px solid #f5f5f5;
+		padding: 0.5em;
+		border-radius: 1px;
+		margin-bottom: 1em;
+	}
+
+	h1 {
+		margin-top: 0;
+		margin-bottom: 0;
 	}
 </style>
