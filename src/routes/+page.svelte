@@ -17,7 +17,7 @@
 		<p style="margin: -0.3em;">
 			(Rainier Mountain, <Tooltip content="hard" theme="hxp">skyline loop trail.</Tooltip>)
 		</p>
-		<div style="display: flex; justify-content: space-between; margin-top:1em;">
+		<div style="max-width:100%;display: flex; justify-content: space-between; margin-top:1em;">
 			<div><a href="https://www.overleaf.com/read/ymxxygrjthhs#9631dc">CV</a></div>
 			<div><a href="https://haoxp.xyz">Personal life (Chinese)</a></div>
 			<div><a href="https://github.com/XiangpengHao">GitHub</a></div>
@@ -153,7 +153,7 @@
 		--tooltip-offset-x: 5px;
 	}
 
-	.card{
+	.card {
 		border: 2px solid #f5f5f5;
 		padding: 0.5em;
 		border-radius: 1px;
