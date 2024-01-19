@@ -78,9 +78,7 @@
 		Many many other people have helped me along the way. I'm grateful for all of them.
 	</div>
 	<div style="margin-left: 1em; width: 30em; line-height: 100%;">
-		While <Tooltip theme="hxp" content="... and being a reasonable person">building systems</Tooltip
-		>, I <Tooltip theme="hxp" content="Not the reverse!">also</Tooltip>
-		<Tooltip theme="hxp" content="Depends on luck and collaborators!">publish papers.</Tooltip>
+		While <Tooltip theme="hxp" content="... and being a reasonable person">building systems</Tooltip>, I <Tooltip theme="hxp" content="Not the reverse!">also</Tooltip><Tooltip theme="hxp"	content="Depends on luck and collaborators!">publish papers.</Tooltip>
 
 		<CollapsibleCard open={paper_open}>
 			<u slot="header">Click to show.</u>
