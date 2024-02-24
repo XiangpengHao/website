@@ -3,6 +3,8 @@
 	import { Tooltip } from '@svelte-plugins/tooltips';
 	import { CollapsibleCard } from 'svelte-collapsible';
 
+	import cv from '$lib/assets/Xiangpeng_Hao_CV.pdf';
+
 	let paper_open = false;
 </script>
 
@@ -77,8 +79,8 @@
 					(Mt. Rainier, <Tooltip content="hard" theme="hxp">skyline loop trail.</Tooltip>)
 				</p>
 				<div style="max-width:100%;display: flex; justify-content: space-between; margin-top:1em;">
-					<div><a href="https://www.overleaf.com/read/ymxxygrjthhs#9631dc">CV</a></div>
-					<div><a href="https://t.me/life_xiangpeng">Personal life (Chinese)</a></div>
+					<div><a href={cv}>CV</a></div>
+					<div><a href="https://t.me/life_xiangpeng">Life (Chinese)</a></div>
 					<div><a href="https://github.com/XiangpengHao">GitHub</a></div>
 					<div><a href="https://www.linkedin.com/in/hao-xiangpeng/">LinkedIn</a></div>
 				</div>
@@ -89,18 +91,31 @@
 			<div class="card" style="line-height: 140%; width: 700px;">
 				While <Tooltip theme="hxp" content="... and being a reasonable person"
 					>building systems</Tooltip
-				><Tooltip theme="hxp" content="Not the reverse!">,</Tooltip>I <Tooltip
-					theme="hxp"
-					content="Depends on luck and collaborators!">publish papers.</Tooltip
-				>
+				>, I <Tooltip theme="hxp" content="Depends on luck and collaborators!"
+					>publish papers</Tooltip
+				> (not the reverse!).
 
 				<CollapsibleCard open={paper_open}>
 					<u slot="header">Click to show.</u>
-					<div slot="body" style="max-height: 30em; overflow: scroll; ">
+					<div slot="body">
 						<p>
 							Towards Buffer Management with Tiered Main Memory.<br />
 							<strong>Xiangpeng Hao</strong>, Xinjing Zhou, Xiangyao Yu, Michael Stonebraker. SIGMOD
 							2024, to appear.
+						</p>
+
+						<p>
+							Blink-hash: An Adaptive Hybrid Index for In-Memory Time-Series Databases<br />
+							Hokeun Cha, <strong>Xiangpeng Hao</strong>, Tianzheng Wang, Huanchen Zhang, Aditya
+							Akella, Xiangyao Yu. Proceedings of the VLDB Endowment (VLDB 2023)
+						</p>
+
+						<p>
+							Towards Accelerating Data Intensive Application's Shuffle Process Using SmartNICs <br
+							/>
+							Jiaxin Lin, Tao Ji, <strong>Xiangpeng Hao</strong>, Hokeun Cha, Yanfang Le, Xiangyao
+							Yu, Aditya Akella Proceedings of the ACM on Measurement and Analysis of Computing
+							Systems
 						</p>
 						<p>
 							PiBench Online: Interactive Benchmarking of Persistent Memory Indexes (Demo). <br
