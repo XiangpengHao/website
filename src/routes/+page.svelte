@@ -25,8 +25,8 @@
 					content="Write code, and build system people can use, not just describe algorithms/protocols"
 					theme="hxp"><strong>building</strong></Tooltip
 				>
-				<Tooltip content="Not LLM!" theme="hxp">data-intensive systems.</Tooltip>
-				I've worked on multiple database storage engines and <Tooltip
+				<Tooltip content="Not LLM!" theme="hxp">data-intensive systems:</Tooltip>
+				worked on multiple database storage engines and <Tooltip
 					theme="hxp"
 					content="aka, B-tree, LSM-tree, hash table, and ART (adaptive radix tree)."
 				>
@@ -145,8 +145,42 @@
 						<Tooltip theme="hxp" content="To publish and to graduate">High performance</Tooltip>
 					</li>
 				</ol>
+
+				I'm an &nbsp;<a href="https://plato.stanford.edu/entries/existentialism/">existentialist</a
+				>.
+				<ul>
+					<li>
+						<strong>Existence Precedes Essence.</strong> We exist for ourselves as self-making or self-defining
+						beings, and we are always in the process of making or defining ourselves through the situated
+						choices we make as our lives unfold.
+					</li>
+					<li>
+						<strong>Freedom.</strong> It is true that we are free to create ourselves, but it is also
+						true that we are already created by our situation.
+					</li>
+					<li>
+						<strong>Nihilism.</strong> (1) God is dead (2) life is regulated and controlled by faceless
+						bureaucrats.
+					</li>
+				</ul>
+
+				Good reads:
+				<ol>
+					<li>
+						<a href="https://www.goodreads.com/en/book/show/17895842"
+							>Returning to Reims (回归故里)</a
+						>
+					</li>
+					<li>
+						<a href="https://www.goodreads.com/en/book/show/4934"
+							>The Brothers Karamazov (卡拉马佐夫兄弟)</a
+						>
+					</li>
+				</ol>
 			</div>
 		</div>
+
+		<!-- <div style="display: flex; margin-top:1em;"></div> -->
 	</div>
 </div>
 
