@@ -178,6 +178,9 @@
 						bureaucrats.
 					</li>
 				</ul>
+				<section>Leap of faith: Be nice; Be good to society.</section>
+
+				<br />
 
 				Good reads:
 				<ol>
