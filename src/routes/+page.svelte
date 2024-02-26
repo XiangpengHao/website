@@ -42,10 +42,10 @@
 				> on people who use the system. I'm serious about building <Tooltip
 					theme="hxp"
 					content="Fearless high performance">reliable systems</Tooltip
-				>: I <Tooltip theme="hxp" content="Sometimes C# if you pay as much as M$">(almost)</Tooltip>
+				>: <Tooltip theme="hxp" content="Sometimes C# if you pay as much as M$">(almost)</Tooltip>
 				exclusively write in
-				<strong>Rust</strong>, I fuzz test all the core components, I run systematic concurrency
-				tests on all my multi-thread code.
+				<strong>Rust</strong>, fuzz test all the core components, run systematic concurrency tests
+				on all my multi-thread code.
 				<br />
 				<br />
 
@@ -93,7 +93,7 @@
 					>building systems</Tooltip
 				>, I <Tooltip theme="hxp" content="Depends on luck and collaborators!"
 					>publish papers</Tooltip
-				> (not the reverse!).
+				> (not the opposite!).
 
 				<CollapsibleCard open={paper_open}>
 					<u slot="header">Click to show.</u>
@@ -174,8 +174,8 @@
 						true that we are already created by our situation.
 					</li>
 					<li>
-						<strong>Nihilism.</strong> (1) God is dead (2) life is regulated and controlled by faceless
-						bureaucrats.
+						<strong>Nihilism.</strong> (1) individualism and loneliness (2) life is regulated and controlled
+						by faceless bureaucrats.
 					</li>
 				</ul>
 				<section>Leap of faith: Be nice; Be good to society.</section>
