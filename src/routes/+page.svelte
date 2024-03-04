@@ -76,7 +76,9 @@
 			<div class="card" style="width: 300px;">
 				<img src={portrait} class="pure-img" alt="Xiangpeng on Mt. Rainier" style="width: 100%;" />
 				<p style="margin: -0.3em;">
-					(Mt. Rainier, <Tooltip content="hard" theme="hxp">skyline loop trail.</Tooltip>)
+					(Mt. Rainier, skyline loop trail, <a
+						href="https://www.linkedin.com/in/dujian-ding-250123133">credit</a
+					>)
 				</p>
 				<div style="max-width:100%;display: flex; justify-content: space-between; margin-top:1em;">
 					<div><a href={cv}>CV</a></div>
