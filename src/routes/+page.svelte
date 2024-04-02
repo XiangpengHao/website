@@ -6,6 +6,9 @@
 	import cv from '$lib/assets/Xiangpeng_Hao_CV.pdf';
 
 	let paper_open = false;
+
+	const currentDate = new Date();
+	const formattedDate = currentDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long' });
 </script>
 
 <div>
@@ -13,7 +16,7 @@
 		<div style="display: flex; flex-wrap: wrap; justify-content:center; margin-bottom:1em;">
 			<h1>Xiangpeng Hao</h1>
 			<h1>(he/him, pronunciations: Shyang-pung How)</h1>
-			<div style="margin-left: 1px;">Last update: April 2024.</div>
+			<div style="margin-left: 1px;">Last update: {formattedDate}.</div>
 		</div>
 
 		<div style="display: flex;">
@@ -31,13 +34,12 @@
 				<a href="https://dl.acm.org/doi/10.1145/3639286">Two-trees</a>,
 				<a href="https://github.com/XiangpengHao/congee">Congee</a>)<br />
 				<br />
-				I aim to <a href="http://herpolhode.com/rob/utah2000.pdf">build reliable systems</a> that
-				solve today's problem and have <strong>direct impact</strong> on people who use the system.
-				I believe <strong>real</strong> impacts stem from first-person experience of the
+				I aim to <a href="http://herpolhode.com/rob/utah2000.pdf">build systems</a> that solve
+				today's problem and have <strong>direct impact</strong> on people who use the system. I
+				believe <strong>real</strong> impacts stem from first-person experience of the
 				<strong>real</strong>
-				problems. I believe system research without being grounded by <strong>real</strong> systems,
-				<strong>real</strong>
-				workloads, <strong>real</strong> use cases is a waste of intelligence and time.
+				problems. I believe system research without being grounded by <strong>real</strong>
+				systems/workloads/use-cases, is a waste of intelligence and time.
 				<br />
 				<br />
 
@@ -68,13 +70,13 @@
 			<div class="card" style="width: 300px;">
 				<img src={portrait} class="pure-img" alt="Xiangpeng on Mt. Rainier" style="width: 100%;" />
 				<p style="margin: -0.3em;">
-					(Mt. Rainier, skyline loop trail, <a
+					(🌈 Mt. Rainier, skyline loop trail, <a
 						href="https://www.linkedin.com/in/dujian-ding-250123133">credit</a
 					>)
 				</p>
 				<div style="max-width:100%;display: flex; justify-content: space-between; margin-top:1em;">
 					<div><a href={cv}>CV</a></div>
-					<div><a href="https://t.me/life_xiangpeng">Life (Chinese)</a></div>
+					<div><a href="https://t.me/life_xiangpeng">Life (Chinese)</a> </div>
 					<div><a href="https://github.com/XiangpengHao">GitHub</a></div>
 					<div><a href="https://www.linkedin.com/in/hao-xiangpeng/">LinkedIn</a></div>
 				</div>
@@ -193,6 +195,7 @@
 						>
 					</li>
 				</ol>
+				
 			</div>
 		</div>
 
