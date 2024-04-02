@@ -35,10 +35,9 @@
 				solve today's problem and have <strong>direct impact</strong> on people who use the system.
 				I believe <strong>real</strong> impacts stem from first-person experience of the
 				<strong>real</strong>
-				problems.
-				<!-- I'm serious about building reliable systems: (almost) exclusively write in -->
-				<!-- <strong>Rust</strong>, fuzz test all the core components, run systematic concurrency tests -->
-				<!-- on all multi-threaded code. -->
+				problems. I believe system research without being grounded by <strong>real</strong> systems,
+				<strong>real</strong>
+				workloads, <strong>real</strong> use cases is a waste of intelligence and time.
 				<br />
 				<br />
 
@@ -151,8 +150,7 @@
 						for academic records. We are serious about usability, fail-proof, and documentation.
 					</li>
 					<li>
-						Correctness. Performance is nothing without being correct ❤️. I (almost) exclusively
-						write in
+						Correctness. I (almost) exclusively write in
 						<strong>Rust</strong>, fuzz test all the core components, run systematic concurrency
 						tests on all multi-threaded code.
 					</li>
