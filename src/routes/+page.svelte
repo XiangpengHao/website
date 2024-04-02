@@ -13,7 +13,7 @@
 		<div style="display: flex; flex-wrap: wrap; justify-content:center; margin-bottom:1em;">
 			<h1>Xiangpeng Hao</h1>
 			<h1>(he/him, pronunciations: Shyang-pung How)</h1>
-			<div style="margin-left: 1px;">Last update: Feb 2024.</div>
+			<div style="margin-left: 1px;">Last update: April 2024.</div>
 		</div>
 
 		<div style="display: flex;">
@@ -23,29 +23,22 @@
 					>database/storage systems</a
 				>.<br />
 				<br />
-				I enjoy <Tooltip
-					content="Write code, and build system people can use, not just describe algorithms/protocols"
-					theme="hxp"><strong>building</strong></Tooltip
-				>
-				<Tooltip content="Not LLM!" theme="hxp">data-intensive systems:</Tooltip>
-				worked on multiple database storage engines and <Tooltip
-					theme="hxp"
-					content="aka, B-tree, LSM-tree, hash table, and ART (adaptive radix tree)."
-				>
-					in-memory/larger-than-memory key-value stores for the past few years.</Tooltip
-				> <br />
+				I enjoy <strong>building</strong>
+				data-intensive systems: worked on multiple database storage engines and in-memory/larger-than-memory
+				key-value stores for the past few years. (BigTable, Spanner,
+				<a href="https://github.com/microsoft/FASTER">FASTER</a>,
+				<a href="https://github.com/microsoft/garnet">Garnet</a>,
+				<a href="https://dl.acm.org/doi/10.1145/3639286">Two-trees</a>,
+				<a href="https://github.com/XiangpengHao/congee">Congee</a>)<br />
 				<br />
-				I aim to <a href="http://herpolhode.com/rob/utah2000.pdf">build systems</a> that have <Tooltip
-					theme="hxp"
-					content="Not for next x years, but now! Not rely on anyone else to read and implement it, but I do it myself!"
-					><strong>direct impact</strong></Tooltip
-				> on people who use the system. I'm serious about building <Tooltip
-					theme="hxp"
-					content="Fearless high performance">reliable systems</Tooltip
-				>: <Tooltip theme="hxp" content="Sometimes C# if you pay as much as M$">(almost)</Tooltip>
-				exclusively write in
-				<strong>Rust</strong>, fuzz test all the core components, run systematic concurrency tests
-				on all my multi-thread code.
+				I aim to <a href="http://herpolhode.com/rob/utah2000.pdf">build reliable systems</a> that
+				solve today's problem and have <strong>direct impact</strong> on people who use the system.
+				I believe <strong>real</strong> impacts stem from first-person experience of the
+				<strong>real</strong>
+				problems.
+				<!-- I'm serious about building reliable systems: (almost) exclusively write in -->
+				<!-- <strong>Rust</strong>, fuzz test all the core components, run systematic concurrency tests -->
+				<!-- on all multi-threaded code. -->
 				<br />
 				<br />
 
@@ -147,19 +140,24 @@
 			</div>
 
 			<div class="card" style="width:300px;">
-				Design axioms (in order of importance)
+				Design axioms (ordered)
 				<ol>
 					<li>
 						<Tooltip
 							theme="hxp"
 							content="I hope this sub-optimized version of me can publish enough to graduate."
 							>People-centric.</Tooltip
-						> We build the system for people to use/build-upon/contribute, not just for academic records.
-						We consider usability, fail-safe, documentation while designing the system.
+						> We design the system for people to {'{'}use | build-upon | contribute{'}'}, not just
+						for academic records. We are serious about usability, fail-proof, and documentation.
 					</li>
-					<li>Correctness.</li>
 					<li>
-						<Tooltip theme="hxp" content="To publish and to graduate">High performance</Tooltip>
+						Correctness. Performance is nothing without being correct ❤️. I (almost) exclusively
+						write in
+						<strong>Rust</strong>, fuzz test all the core components, run systematic concurrency
+						tests on all multi-threaded code.
+					</li>
+					<li>
+						<Tooltip theme="hxp" content="To publish and to graduate">High performance.</Tooltip>
 					</li>
 				</ol>
 
