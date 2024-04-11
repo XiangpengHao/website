@@ -76,7 +76,7 @@
 				</p>
 				<div style="max-width:100%;display: flex; justify-content: space-between; margin-top:1em;">
 					<div><a href={cv}>CV</a></div>
-					<div><a href="https://t.me/life_xiangpeng">Life (Chinese)</a> </div>
+					<div><a href="https://t.me/life_xiangpeng">Life (Chinese)</a></div>
 					<div><a href="https://github.com/XiangpengHao">GitHub</a></div>
 					<div><a href="https://www.linkedin.com/in/hao-xiangpeng/">LinkedIn</a></div>
 				</div>
@@ -84,7 +84,78 @@
 		</div>
 
 		<div style="display: flex; margin-top: 1em; ">
-			<div class="card" style="line-height: 140%; width: 700px;">
+			<div class="card" style="width:700px;">
+				Design axioms (ordered)
+				<ol style="margin-top: 0.5em;">
+					<li>
+						<Tooltip
+							theme="hxp"
+							content="I hope this sub-optimized version of me can publish enough to graduate."
+							>People-centric.</Tooltip
+						> We design the system for people to {'{'}use | build-upon | contribute{'}'}, not just
+						for academic records. We are serious about usability, fail-proof, and documentation.
+					</li>
+					<li>
+						Correctness. I (almost) exclusively write in
+						<strong>Rust</strong>, fuzz test all the core components, run systematic concurrency
+						tests on all multi-threaded code.
+					</li>
+					<li>
+						<Tooltip theme="hxp" content="To publish and to graduate">High performance.</Tooltip>
+					</li>
+				</ol>
+
+				I'm an &nbsp;<a href="https://plato.stanford.edu/entries/existentialism/">existentialist</a
+				>.
+				<ul style="margin-top: 0.5em;">
+					<li>
+						<strong>Existence Precedes Essence.</strong> We exist for ourselves as self-making or self-defining
+						beings, and we are always in the process of making or defining ourselves through the situated
+						choices we make as our lives unfold.
+					</li>
+					<li>
+						<strong>Freedom.</strong> It is true that we are free to create ourselves, but it is also
+						true that we are already created by our situation.
+					</li>
+					<li>
+						<strong>Nihilism.</strong> (1) individualism and loneliness (2) life is regulated and controlled
+						by faceless bureaucrats.
+					</li>
+				</ul>
+				<section>Leap of faith: Be nice; Be good to society.</section>
+
+				<br />
+
+				<p style="margin-bottom: 0">Good reads:</p>
+				<ol style="margin-top: 0">
+					<li>
+						<a href="https://www.goodreads.com/en/book/show/17895842"
+							>Returning to Reims (回归故里)</a
+						>
+					</li>
+					<li>
+						<a href="https://www.goodreads.com/en/book/show/4934"
+							>The Brothers Karamazov (卡拉马佐夫兄弟)</a
+						>
+					</li>
+				</ol>
+
+				<section>
+					<p style="margin-bottom: 0;">Disease of Academia:</p>
+					<div class="quote" style="margin-top: 0.5em;">
+						It’s the disease of thinking that a really great idea is 90% of the work. And if you
+						just tell all these other people “here’s this great idea,” then of course they can go
+						off and make it happen. And the problem with that is that there’s just a tremendous
+						amount of craftsmanship in between a great idea and a great product. And as you evolve
+						that great idea, it changes and grows. It never comes out like it starts because you
+						learn a lot more as you get into the subtleties of it. And you also find there are
+						tremendous tradeoffs that you have to make... Designing a product is keeping five
+						thousand things in your brain and fitting them all together in new and different ways to
+						get what you want. -- Steve Jobs
+					</div>
+				</section>
+			</div>
+			<div class="card" style="line-height: 140%; width: 300px;">
 				While <Tooltip theme="hxp" content="... and being a reasonable person"
 					>building systems</Tooltip
 				>, I <Tooltip theme="hxp" content="Depends on luck and collaborators!"
@@ -139,67 +210,7 @@
 					</div>
 				</CollapsibleCard>
 			</div>
-
-			<div class="card" style="width:300px;">
-				Design axioms (ordered)
-				<ol>
-					<li>
-						<Tooltip
-							theme="hxp"
-							content="I hope this sub-optimized version of me can publish enough to graduate."
-							>People-centric.</Tooltip
-						> We design the system for people to {'{'}use | build-upon | contribute{'}'}, not just
-						for academic records. We are serious about usability, fail-proof, and documentation.
-					</li>
-					<li>
-						Correctness. I (almost) exclusively write in
-						<strong>Rust</strong>, fuzz test all the core components, run systematic concurrency
-						tests on all multi-threaded code.
-					</li>
-					<li>
-						<Tooltip theme="hxp" content="To publish and to graduate">High performance.</Tooltip>
-					</li>
-				</ol>
-
-				I'm an &nbsp;<a href="https://plato.stanford.edu/entries/existentialism/">existentialist</a
-				>.
-				<ul>
-					<li>
-						<strong>Existence Precedes Essence.</strong> We exist for ourselves as self-making or self-defining
-						beings, and we are always in the process of making or defining ourselves through the situated
-						choices we make as our lives unfold.
-					</li>
-					<li>
-						<strong>Freedom.</strong> It is true that we are free to create ourselves, but it is also
-						true that we are already created by our situation.
-					</li>
-					<li>
-						<strong>Nihilism.</strong> (1) individualism and loneliness (2) life is regulated and controlled
-						by faceless bureaucrats.
-					</li>
-				</ul>
-				<section>Leap of faith: Be nice; Be good to society.</section>
-
-				<br />
-
-				Good reads:
-				<ol>
-					<li>
-						<a href="https://www.goodreads.com/en/book/show/17895842"
-							>Returning to Reims (回归故里)</a
-						>
-					</li>
-					<li>
-						<a href="https://www.goodreads.com/en/book/show/4934"
-							>The Brothers Karamazov (卡拉马佐夫兄弟)</a
-						>
-					</li>
-				</ol>
-				
-			</div>
 		</div>
-
-		<!-- <div style="display: flex; margin-top:1em;"></div> -->
 	</div>
 </div>
 
@@ -226,5 +237,23 @@
 	h1 {
 		margin-top: 0;
 		margin-bottom: 0;
+	}
+
+	.quote {
+		font-size: 18px;
+		line-height: 1.5;
+		background-color: #f9f9f9;
+		border-left: 10px solid #ccc;
+		margin: 1.5em 10px;
+		padding: 0.5em 10px;
+		quotes: '\201C' '\201D' '\2018' '\2019';
+	}
+	.quote:before {
+		color: #ccc;
+		content: open-quote;
+		font-size: 4em;
+		line-height: 0.1em;
+		margin-right: 0.25em;
+		vertical-align: -0.4em;
 	}
 </style>
