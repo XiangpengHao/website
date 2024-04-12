@@ -141,7 +141,6 @@
 				</ol>
 
 				<section>
-					<p style="margin-bottom: 0;">Disease of Academia:</p>
 					<div class="quote" style="margin-top: 0.5em;">
 						It’s the disease of thinking that a really great idea is 90% of the work. And if you
 						just tell all these other people “here’s this great idea,” then of course they can go
