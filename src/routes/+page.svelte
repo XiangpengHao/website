@@ -239,7 +239,6 @@
 	}
 
 	.quote {
-		font-size: 18px;
 		line-height: 1.5;
 		background-color: #f9f9f9;
 		border-left: 10px solid #ccc;
