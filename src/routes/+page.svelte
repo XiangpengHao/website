@@ -16,7 +16,11 @@
 		<div style="display: flex; flex-wrap: wrap; justify-content:center; margin-bottom:1em;">
 			<h1>Xiangpeng Hao</h1>
 			<h1>(he/him, pronunciations: Shyang-pung How)</h1>
-			<div style="margin-left: 1px;">Last update: {formattedDate}.</div>
+			<div style="margin-left: 1px;">
+				<span>Last update: {formattedDate}.</span><a href="/life" style="margin-left: 1em;"
+					>Non-academic</a
+				>
+			</div>
 		</div>
 
 		<div style="display: flex;">
@@ -35,19 +39,21 @@
 				<a href="https://github.com/XiangpengHao/congee">Congee</a>)<br />
 				<br />
 				I aim to <a href="http://herpolhode.com/rob/utah2000.pdf">build systems</a> that solve
-				today's problem and have <strong>direct impact</strong> on people who use the system. I
-				believe <strong>real</strong> impacts stem from first-person experience of the
+				today's problems and <strong>directly impact</strong> the users. I believe
 				<strong>real</strong>
-				problems. I believe system research without being grounded by <strong>real</strong>
-				systems/workloads/use-cases, is a waste of intelligence and time.
+				impacts stem from the first-person experience of
+				<strong>real</strong>
+				problems.
+				<a
+					href="http://databasearchitects.blogspot.com/2023/01/for-systems-research-is-development-and.html"
+					>System research</a
+				>
+				without being grounded by <strong>real</strong>
+				systems, is a waste of intelligence and time.
 				<br />
 				<br />
 
-				I care about <Tooltip
-					theme="hxp"
-					content="Not (just) academic achievements, money, big houses, etc."
-					><strong>people</strong></Tooltip
-				>.
+				I care about people.
 				<br />
 				<a href="https://www.cs.sfu.ca/~tzwang/">Tianzheng Wang</a> was my undergraduate advisor. He
 				is a rock-star database researcher, I learned a lot from him. He introduced me to the
@@ -57,15 +63,14 @@
 				three and a half years.
 				<br />
 				<a href="https://www.cs.cmu.edu/~yixinluo/">Yixin Luo</a> was my intern mentor @Google. We
-				did great work on database auto-tuning. Sad that I can't continue participating in the
-				project due to external restrictions.
+				did great work on database auto-tuning.
 				<br />
 				<a href="https://www.microsoft.com/en-us/research/people/badrishc/">Badrish Chandramouli</a>
-				was my intern mentor @MSR. He is a great researcher and mentor. He reasons about what I said,
-				and his attrition to details is incredible.
+				was my intern mentor @MSR. He is a great researcher and mentor. He reasons what I said, and his
+				attrition to details is incredible.
 				<br />
 
-				Many many other people have helped me along the way. I'm grateful for all of them.
+				Many other people helped me along the way, I'm grateful for all of them.
 			</div>
 			<div class="card" style="width: 300px;">
 				<img src={portrait} class="pure-img" alt="Xiangpeng on Mt. Rainier" style="width: 100%;" />
@@ -93,11 +98,11 @@
 							theme="hxp"
 							content="I hope this sub-optimized version of me can publish enough to graduate."
 							>People-centric.</Tooltip
-						> We design the system for people to {'{'}use | build-upon | contribute{'}'}, not just
-						for academic records. We are serious about usability, fail-proof, and documentation.
+						> I build systems for people to {'{'}use | build-upon | contribute{'}'}, not just for
+						academic records. I'm serious about usability, fail-proof, and documentation.
 					</li>
 					<li>
-						Correctness. I (almost) exclusively write in
+						Correctness. I code in
 						<strong>Rust</strong>, fuzz test all the core components, run systematic concurrency
 						tests on all multi-threaded code.
 					</li>
