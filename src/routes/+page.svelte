@@ -66,8 +66,9 @@
 				did great work on database auto-tuning.
 				<br />
 				<a href="https://www.microsoft.com/en-us/research/people/badrishc/">Badrish Chandramouli</a>
-				was my intern mentor @MSR. He is a great researcher and mentor. He reasons what I said, and his
-				attrition to details is incredible.
+				was my intern mentor @MSR. He is a great researcher and
+				<a href="https://blog.haoxp.xyz/posts/good-advisor/">mentor</a>. He reasons what I said, and
+				his attrition to details is incredible.
 				<br />
 
 				Many other people helped me along the way, I'm grateful for all of them.
@@ -135,14 +136,10 @@
 				<p style="margin-bottom: 0">Good reads:</p>
 				<ol style="margin-top: 0">
 					<li>
-						<a href="https://www.goodreads.com/en/book/show/17895842"
-							>Returning to Reims (回归故里)</a
-						>
+						<a href="https://www.goodreads.com/en/book/show/17895842">Returning to Reims</a>
 					</li>
 					<li>
-						<a href="https://www.goodreads.com/en/book/show/4934"
-							>The Brothers Karamazov (卡拉马佐夫兄弟)</a
-						>
+						<a href="https://www.goodreads.com/en/book/show/4934">The Brothers Karamazov</a>
 					</li>
 				</ol>
 
@@ -229,6 +226,13 @@
 		--tooltip-offset-y: 5px !important;
 		--tooltip-padding: 8px;
 		--tooltip-offset-x: 5px;
+	}
+
+	:global(body) {
+		font-family: 'Cormorant Garamond', serif;
+		font-size: 1.1rem;
+		font-weight: 500;
+		font-style: normal;
 	}
 
 	.card {
