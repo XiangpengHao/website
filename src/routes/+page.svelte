@@ -83,7 +83,7 @@
 				<div style="max-width:100%;display: flex; justify-content: space-between; margin-top:1em;">
 					<div><a href={cv}>CV</a></div>
 					<div><a href="https://blog.haoxp.xyz">Blog</a></div>
-					<div><a href="https://t.me/life_xiangpeng">Life (Chinese)</a></div>
+					<div><a href="https://t.me/life_xiangpeng">Life (CN)</a></div>
 					<div><a href="https://github.com/XiangpengHao">GitHub</a></div>
 					<div><a href="https://www.linkedin.com/in/hao-xiangpeng/">LinkedIn</a></div>
 				</div>
