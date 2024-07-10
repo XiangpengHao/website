@@ -25,14 +25,20 @@
 
 		<div style="display: flex;">
 			<div class="card" style="line-height: 140%; width: 700px;">
-				I'm a third year PhD student at the University of Wisconsin-Madison studying computer
-				science with a focus on <a href="http://www.jfsowa.com/ikl/Stonebraker.pdf"
-					>database/storage systems</a
-				>.<br />
+				<strong style="font-family: Helvetica, Arial, sans-serif;"
+					>Want my 100% time for only 50% SWE cost? <a href="/fund">Fund my PhD research!</a
+					></strong
+				>
+				<br />
+				<br />
+				I'm a third year PhD student at the University of Wisconsin-Madison studying computer science
+				with a focus on
+				<a href="http://www.jfsowa.com/ikl/Stonebraker.pdf">database/storage systems</a>.<br />
+
 				<br />
 				I enjoy <strong>building</strong>
 				data-intensive systems: worked on multiple database storage engines and in-memory/larger-than-memory
-				key-value stores for the past few years. (BigTable, Spanner,
+				key-value stores for the past few years. (Apache Arrow, Apache DataFusion, BigTable, Spanner,
 				<a href="https://github.com/microsoft/FASTER">FASTER</a>,
 				<a href="https://github.com/microsoft/garnet">Garnet</a>,
 				<a href="https://dl.acm.org/doi/10.1145/3639286">Two-trees</a>,
