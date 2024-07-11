@@ -38,7 +38,7 @@
 				<br />
 				I enjoy <strong>building</strong>
 				data-intensive systems: worked on multiple database storage engines and in-memory/larger-than-memory
-				key-value stores for the past few years. (Apache Arrow, Apache DataFusion, BigTable, Spanner,
+				key-value stores for the past few years. (Arrow, DataFusion, Parquet, BigTable, Spanner,
 				<a href="https://github.com/microsoft/FASTER">FASTER</a>,
 				<a href="https://github.com/microsoft/garnet">Garnet</a>,
 				<a href="https://dl.acm.org/doi/10.1145/3639286">Two-trees</a>,

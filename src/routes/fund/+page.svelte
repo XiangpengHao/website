@@ -71,4 +71,5 @@
 	</div>
 	<h1>Connect</h1>
 	xiangpeng.hao@wisc.edu
+	<div>Last update July 2024.</div>
 </div>
