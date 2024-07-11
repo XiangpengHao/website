@@ -1,6 +1,7 @@
 <div style="margin: 0.5em; font-family: Helvetica, Arial, sans-serif">
 	<a href="/">Back</a>
-	<h1>Why it's a great deal</h1>
+	<h1>Fund my PhD</h1>
+	<h2>Why it is a great deal?</h2>
 	<div>
 		<p>
 			I do database, especially the memory/storage subsystems, published <a
@@ -17,7 +18,7 @@
 			flexible? See below.
 		</p>
 	</div>
-	<h1>Funding tiers</h1>
+	<h2>Funding tiers</h2>
 
 	<div>
 		<strong>100% of my time.</strong> I work full time as a research assistant on the project that benefits
@@ -28,7 +29,7 @@
 		<strong>20-50% of my time.</strong> I work as a part-time intern for your company during Spring/Fall
 		semesters.
 	</div>
-	<h1>Example projects</h1>
+	<h2>Example projects</h2>
 	<div>
 		General goal: the project benefits both your company and the research community.
 		<br />
@@ -46,30 +47,37 @@
 	<br style="margin-top: 2em;" />
 	<div>
 		<p>
-			<strong>Project 1: cloud-native storage engine.</strong>
+			<strong>Example 1: cloud-native storage engine.</strong>
 			An infinitely scalable, low latency storage engine build purely on object storage. Aim to achieve
 			1ms latency and 11 nine availability. What's more cool? It automatically tiers your data to most
 			suitable storage backend -- big money saver!
 		</p>
 		<p>
-			<strong>Project 2: fast parquet reader for ML workloads.</strong> Love parquet but worry its
+			<strong>Example 2: fast parquet reader for ML workloads.</strong> Love parquet but worry its
 			performance on machine learning data? We will build a
 			<a href="https://github.com/apache/arrow-rs/pull/5856">specialized parquet reader</a> that never
 			slows you down!
 		</p>
 		<p>
-			<strong>Project 3: SQL query with ML power.</strong>
+			<strong>Example 3: SQL query with ML power.</strong>
 			Query anything with intelligence:
 			<code>SELECT * FROM images WHERE color(cat) = 'rainbow';</code>
 			Just register your data, and the system do the rest for you: it automatically detects the schema,
 			selects the best ML model, caches the expensive computation, and more!
 		</p>
 		<p>
-			<strong>Project 4: Bring YOUR problem!</strong>
+			<strong>Real project: Solve YOUR problem!</strong>
 			I'd love to hear real world problems, and I'm open to work on various topics!
 		</p>
 	</div>
-	<h1>Connect</h1>
-	xiangpeng.hao@wisc.edu
-	<div>Last update July 2024.</div>
+	<h2>Connect</h2>
+	<div><a href="mailto:xiangpeng.hao@wisc.edu">xiangpeng.hao@wisc.edu</a></div>
+	<div>Last update July 2024, act fast while I'm available!</div>
 </div>
+
+<style>
+	h2 {
+		margin-top: 1.5em;
+		margin-bottom: 0.5em;
+	}
+</style>
