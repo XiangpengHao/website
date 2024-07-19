@@ -9,20 +9,23 @@
 			> in top-tier conferences, worked for Google, Microsoft, and InfluxData.
 		</p>
 		<p>
-			I write real code. I'm an active contributor to Arrow/Parquet/DataFusion. If you use these
-			projects, you are likely already using my code.
+			I write real code. I'm an <a
+				href="https://github.com/apache/arrow-rs/commits/master/?author=XiangpengHao"
+				>active contributor</a
+			> to Arrow/Parquet/DataFusion. If you use these projects, you might already using my code.
 		</p>
 		<p>I write in Rust -- thousands Rust just for arrow-rs.</p>
 		<p>
-			$100k/year is enough to fully fund me, much much cheaper than a FTE with PhD degree. Need more
-			flexible? See below.
+			$50k can fund me for a year, much much cheaper than a FTE with PhD degree. Need more flexible?
+			See below.
 		</p>
 	</div>
 	<h2>Funding tiers</h2>
 
 	<div>
-		<strong>100% of my time.</strong> I work full time as a research assistant on the project that benefits
-		both your company and the research community.
+		<strong>100% of my time.</strong> You make $50K gift to the university under
+		<a href="https://pages.cs.wisc.edu/~remzi/">my advisor's</a> name, I work full time on the project
+		that benefits both your company and the research community.
 	</div>
 	<br />
 	<div>
