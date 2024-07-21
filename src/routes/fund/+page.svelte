@@ -29,8 +29,10 @@
 	</div>
 	<br />
 	<div>
-		<strong>20-50% of my time.</strong> I work as a part-time intern for your company during Spring/Fall
-		semesters.
+		<del
+			><strong>20-50% of my time.</strong> I work as a part-time intern for your company during Spring/Fall
+			semesters.</del
+		>I currently only look for fully funded opportunities!
 	</div>
 	<h2>Example projects</h2>
 	<div>

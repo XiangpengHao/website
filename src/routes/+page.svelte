@@ -144,9 +144,10 @@
 					<li>
 						<a href="https://www.goodreads.com/en/book/show/17895842">Returning to Reims</a>
 					</li>
-					<li>
-						<a href="https://www.goodreads.com/en/book/show/4934">The Brothers Karamazov</a>
-					</li>
+					<li><a href="https://www.goodreads.com/book/show/12505.The_Idiot">The Idiot</a></li>
+					<!-- <li> -->
+					<!-- <a href="https://www.goodreads.com/en/book/show/4934">The Brothers Karamazov</a> -->
+					<!-- </li> -->
 				</ol>
 
 				<section>
@@ -236,6 +237,7 @@
 
 	:global(body) {
 		font-family: 'Cormorant Garamond', serif;
+		/* font-family: 'Open Sans', sans-serif; */
 		font-size: 1.1rem;
 		font-weight: 500;
 		font-style: normal;
@@ -261,6 +263,7 @@
 		margin: 1.5em 10px;
 		padding: 0.5em 10px;
 		quotes: '\201C' '\201D' '\2018' '\2019';
+		font-family: 'Cormorant Garamond', serif;
 	}
 	.quote:before {
 		color: #ccc;
