@@ -14,7 +14,7 @@
 				>active contributor</a
 			> to Arrow/Parquet/DataFusion. If you use these projects, you might already using my code.
 		</p>
-		<p>I write in Rust -- thousands Rust just for arrow-rs.</p>
+		<p>I write in Rust -- thousands lines of Rust just for arrow-rs.</p>
 		<p>
 			$50k can fund me for a year, much much cheaper than a FTE with PhD degree. Need more flexible?
 			See below.
@@ -56,8 +56,11 @@
 			suitable storage backend -- big money saver!
 		</p>
 		<p>
-			<strong>Example 2: fast parquet reader for ML workloads.</strong> Love parquet but worry its
-			performance on machine learning data? We will build a
+			<strong>Example 2: fast parquet reader for ML workloads.</strong> Love parquet but
+			<a href="https://www.influxdata.com/blog/how-good-parquet-wide-tables/"
+				>worry its performance</a
+			>
+			on machine learning data? We will build a
 			<a href="https://github.com/apache/arrow-rs/pull/5856">specialized parquet reader</a> that never
 			slows you down!
 		</p>
