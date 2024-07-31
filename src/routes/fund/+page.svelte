@@ -23,9 +23,10 @@
 	<h2>Funding tiers</h2>
 
 	<div>
-		<strong>100% of my time.</strong> You make $50K gift to the university under
-		<a href="https://pages.cs.wisc.edu/~remzi/">my advisor's</a> name, I work full time on the project
-		that benefits both your company and the research community.
+		<strong>100% of my time.</strong> You make $50K charitable giving to the
+		<a href="https://www.advanceuw.org">university</a>
+		under
+		<a href="https://pages.cs.wisc.edu/~remzi/">my advisor's</a> name, I work full time on the project.
 	</div>
 	<br />
 	<div>
@@ -36,10 +37,7 @@
 	</div>
 	<h2>Example projects</h2>
 	<div>
-		General goal: the project benefits both your company and the research community.
-		<br />
-		<br />
-		How? We make two deliverables: <strong>the system</strong> we build together, and
+		General goal: we make two deliverables -- <strong>the system</strong> we build together, and
 		<strong>the paper</strong> that publish in top-tier conference. We will build a cool and crazy system
 		that is useful for your company/product. Then we tell the world how cool it is -- in a scientific
 		way.
@@ -81,6 +79,7 @@
 	<h2>Connect</h2>
 	<div><a href="mailto:xiangpeng.hao@wisc.edu">xiangpeng.hao@wisc.edu</a></div>
 	<div>Last update July 2024, act fast while I'm available!</div>
+	<br />
 </div>
 
 <style>
