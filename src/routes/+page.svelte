@@ -25,15 +25,31 @@
 
 		<div style="display: flex;">
 			<div class="card" style="line-height: 140%; width: 700px;">
-				<strong style="font-family: Helvetica, Arial, sans-serif;"
+				<!-- <strong style="font-family: Helvetica, Arial, sans-serif;"
 					>Want my 100% time for only 50% SWE cost? <a href="/fund">Fund my PhD research!</a
 					></strong
-				>
-				<br />
-				<br />
+				> -->
+				<!-- <br /> -->
+				<!-- <br /> -->
 				I'm a third year PhD student at the University of Wisconsin-Madison studying computer science
 				with a focus on
-				<a href="http://www.jfsowa.com/ikl/Stonebraker.pdf">database/storage systems</a>.<br />
+				<a href="http://www.jfsowa.com/ikl/Stonebraker.pdf">database/storage systems</a>.
+				<br />
+				My PhD advisor is
+				<a href="https://pages.cs.wisc.edu/~remzi/">Remzi H. Arpaci-Dusseau</a>, and my PhD is
+				<a href="/fund">funded</a>
+				(2024-2025) by
+				<a href="https://www.influxdata.com">
+					<img
+						src="https://influxdata.github.io/branding/img/downloads/influxdata-logo--full--castle.svg"
+						class="logo"
+						alt="InfluxData logo"
+					/>
+				</a>
+				to work on Apache <a href="https://github.com/apache/datafusion">DataFusion</a>/<a
+					href="https://github.com/apache/arrow-rs">Arrow</a
+				>/<a href="https://github.com/apache/arrow-rs/tree/master/parquet">Parquet</a>.
+				<br />
 
 				<br />
 				I enjoy <strong>building</strong>
@@ -101,20 +117,20 @@
 				Design axioms (ordered)
 				<ol style="margin-top: 0.5em;">
 					<li>
-						<Tooltip
-							theme="hxp"
-							content="I hope this sub-optimized version of me can publish enough to graduate."
-							>People-centric.</Tooltip
-						> I build systems for people to {'{'}use | build-upon | contribute{'}'}, not just for
-						academic records. I'm serious about usability, fail-proof, and documentation.
+						People-centric. I build systems for people to {'{'}use | build-upon | contribute{'}'},
+						not just for academic records.
 					</li>
 					<li>
 						Correctness. I code in
-						<strong>Rust</strong>, fuzz test all the core components, run systematic concurrency
-						tests on all multi-threaded code.
+						<strong>Rust</strong>, <a href="https://github.com/rust-fuzz/cargo-fuzz">fuzz test</a>
+						all the core components, run
+						<a href="https://github.com/awslabs/shuttle">systematic concurrency tests</a> on all multi-threaded
+						code.
 					</li>
 					<li>
-						<Tooltip theme="hxp" content="To publish and to graduate">High performance.</Tooltip>
+						Performance, <a href="https://motherduck.com/blog/perf-is-not-enough/"
+							>between keyboard and screen.</a
+						>
 					</li>
 				</ol>
 
@@ -167,9 +183,7 @@
 			<div class="card" style="line-height: 140%; width: 300px;">
 				While <Tooltip theme="hxp" content="... and being a reasonable person"
 					>building systems</Tooltip
-				>, I <Tooltip theme="hxp" content="Depends on luck and collaborators!"
-					>publish papers</Tooltip
-				> (not the opposite!).
+				>, I publish papers (not the opposite!).
 
 				<CollapsibleCard open={paper_open}>
 					<u slot="header">Click to show.</u>
@@ -241,6 +255,11 @@
 		font-size: 1.1rem;
 		font-weight: 500;
 		font-style: normal;
+	}
+
+	.logo {
+		height: 1.2em; /* Set the height to match the line height */
+		vertical-align: middle; /* Align the image vertically to the middle */
 	}
 
 	.card {
