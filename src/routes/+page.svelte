@@ -33,11 +33,10 @@
 				<!-- <br /> -->
 				<!-- <br /> -->
 				I'm a third year PhD student at the University of Wisconsin-Madison studying computer science
-				with a focus on
-				<a href="http://www.jfsowa.com/ikl/Stonebraker.pdf">database/storage systems</a>.
+				with a focus on database/storage systems.
 				<br />
 				My PhD advisor is
-				<a href="https://pages.cs.wisc.edu/~remzi/">Remzi H. Arpaci-Dusseau</a>, and my PhD is
+				<a href="https://pages.cs.wisc.edu/~remzi/">Remzi H. Arpaci-Dusseau</a>. My PhD is
 				<a href="/fund">funded</a>
 				(2024-2025) by
 				<a href="https://www.influxdata.com">
@@ -53,25 +52,25 @@
 				<br />
 
 				<br />
-				I enjoy <strong>building</strong>
-				data-intensive systems: worked on multiple database storage engines and in-memory/larger-than-memory
-				key-value stores for the past few years. (Arrow, DataFusion, Parquet, BigTable, Spanner,
+				I worked on multiple database engines and key-value stores -- Arrow, DataFusion, Parquet, BigTable,
+				Spanner,
 				<a href="https://github.com/microsoft/FASTER">FASTER</a>,
-				<a href="https://github.com/microsoft/garnet">Garnet</a>,
+				<a href="https://github.com/microsoft/garnet">Garnet</a>, Bf-Tree,
 				<a href="https://dl.acm.org/doi/10.1145/3639286">Two-trees</a>,
-				<a href="https://github.com/XiangpengHao/congee">Congee</a>)<br />
+				<a href="https://github.com/XiangpengHao/congee">Congee</a>.<br />
 				<br />
-				I aim to <a href="http://herpolhode.com/rob/utah2000.pdf">build systems</a> that solve
-				today's problems and <strong>directly impact</strong> the users. I believe
+				<a href="https://blog.haoxp.xyz/posts/research-statement/">My research</a>
+				solves today's problems and directly connects to users . I believe
 				<strong>real</strong>
 				impacts stem from the first-person experience of
 				<strong>real</strong>
 				problems.
 				<a
 					href="http://databasearchitects.blogspot.com/2023/01/for-systems-research-is-development-and.html"
-					>System research</a
-				>
-				without being grounded by <strong>real</strong>
+					>System</a
+				> <a href="http://www.jfsowa.com/ikl/Stonebraker.pdf">research</a>
+				<a href="http://herpolhode.com/rob/utah2000.pdf">without</a> being grounded by
+				<strong>real</strong>
 				systems, is a waste of intelligence and time.
 				<br />
 				<br />
