@@ -1,5 +1,6 @@
 <script>
 	import portrait from '$lib/assets/xiangpeng.jpg';
+	import lgbtFlag from '$lib/assets/lgbt.gif';
 	import { Tooltip } from '@svelte-plugins/tooltips';
 	import { CollapsibleCard } from 'svelte-collapsible';
 
@@ -75,32 +76,37 @@
 				<br />
 				<br />
 
-				I care about people.
+				People I have worked closely:
 				<br />
-				<a href="https://www.cs.sfu.ca/~tzwang/">Tianzheng Wang</a> was my undergraduate advisor. He
+				<a href="https://www.cs.sfu.ca/~tzwang/">Tianzheng Wang</a> -- my undergraduate advisor. He
 				is a rock-star database researcher, I learned a lot from him. He introduced me to the
 				database research, and I still love it.
 				<br />
-				<a href="https://pages.cs.wisc.edu/~yxy/">Xiangyao Yu</a> was my PhD advisor for the first
+				<a href="https://pages.cs.wisc.edu/~yxy/">Xiangyao Yu</a> -- my PhD advisor for the first
 				three and a half years.
 				<br />
-				<a href="https://www.cs.cmu.edu/~yixinluo/">Yixin Luo</a> was my intern mentor @Google. We
+				<a href="https://www.cs.cmu.edu/~yixinluo/">Yixin Luo</a> -- my intern mentor @Google. We
 				did great work on database auto-tuning.
 				<br />
 				<a href="https://www.microsoft.com/en-us/research/people/badrishc/">Badrish Chandramouli</a>
-				was my intern mentor @MSR. He is a great researcher and
+				-- my intern mentor @MSR. He is a great researcher and
 				<a href="https://blog.haoxp.xyz/posts/good-advisor/">mentor</a>. He reasons what I said, and
 				his attrition to details is incredible.
 				<br />
+				<a href="http://andrew.nerdnetworks.org">Andrew Lamb</a> -- my
+				<a href="https://blog.haoxp.xyz/posts/working-at-influxdata/">intern</a>
+				mentor @InfluxData. His passion and professionalism in DataFusion development have reshaped my
+				research to connect more closely to real-world applications.
+				<br />
 
-				Many other people helped me along the way, I'm grateful for all of them.
+				<!-- Many other people helped me along the way, I'm grateful for all of them. -->
 			</div>
 			<div class="card" style="width: 300px;">
 				<img src={portrait} class="pure-img" alt="Xiangpeng on Mt. Rainier" style="width: 100%;" />
 				<p style="margin: -0.3em;">
-					(🌈 Mt. Rainier, skyline loop trail, <a
-						href="https://www.linkedin.com/in/dujian-ding-250123133">credit</a
-					>)
+					(<a href="https://aoli.al"><img src={lgbtFlag} class="logo-large" alt="LGBT flag" /></a>
+					Mt. Rainier,
+					<a href="https://www.linkedin.com/in/dujian-ding-250123133">credit</a>)
 				</p>
 				<div style="max-width:100%;display: flex; justify-content: space-between; margin-top:1em;">
 					<div><a href={cv}>CV</a></div>
@@ -259,6 +265,11 @@
 
 	.logo {
 		height: 1.2em; /* Set the height to match the line height */
+		vertical-align: middle; /* Align the image vertically to the middle */
+	}
+
+	.logo-large {
+		height: 1.4em; /* Set the height to match the line height */
 		vertical-align: middle; /* Align the image vertically to the middle */
 	}
 
