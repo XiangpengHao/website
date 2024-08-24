@@ -55,7 +55,8 @@
 				I worked on multiple database engines and key-value stores -- Arrow, DataFusion, Parquet, BigTable,
 				Spanner,
 				<a href="https://github.com/microsoft/FASTER">FASTER</a>,
-				<a href="https://github.com/microsoft/garnet">Garnet</a>, Bf-Tree,
+				<a href="https://github.com/microsoft/garnet">Garnet</a>,
+				<a href="https://www.vldb.org/pvldb/vol17/p3442-hao.pdf">Bf-Tree</a>,
 				<a href="https://dl.acm.org/doi/10.1145/3639286">Two-trees</a>,
 				<a href="https://github.com/XiangpengHao/congee">Congee</a>.<br />
 				<br />
