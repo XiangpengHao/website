@@ -91,7 +91,7 @@
 				<a href="https://www.microsoft.com/en-us/research/people/badrishc/">Badrish Chandramouli</a>
 				-- my intern mentor @MSR. He is a great researcher and
 				<a href="https://blog.haoxp.xyz/posts/good-advisor/">mentor</a>. He reasons what I said, and
-				his attrition to details is incredible.
+				his attention to details is incredible.
 				<br />
 				<a href="http://andrew.nerdnetworks.org">Andrew Lamb</a> -- my
 				<a href="https://blog.haoxp.xyz/posts/working-at-influxdata/">intern</a>
