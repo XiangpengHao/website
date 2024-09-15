@@ -1,6 +1,11 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
+
 <div style="margin: 0.5em;">
 	<h1>Life</h1>
-	<a href="/">Back</a>
+	<a href="{base}/">Back</a>
 	<div>
 		<p>A place to share things that made me laugh, cry, or think.</p>
 

@@ -1,5 +1,9 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <div style="margin: 0.5em; font-family: Helvetica, Arial, sans-serif">
-	<a href="/">Back</a>
+	<a href="{base}/">Back</a>
 	<h1>Fund my PhD</h1>
 	<h2>Why it is a great deal?</h2>
 	<div>
