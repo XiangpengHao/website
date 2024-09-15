@@ -3,6 +3,7 @@
 	import lgbtFlag from '$lib/assets/lgbt.gif';
 	import { Tooltip } from '@svelte-plugins/tooltips';
 	import { CollapsibleCard } from 'svelte-collapsible';
+	import { base } from '$app/paths';
 
 	import cv from '$lib/assets/Xiangpeng_Hao_CV.pdf';
 
@@ -18,7 +19,7 @@
 			<h1>Xiangpeng Hao</h1>
 			<h1>(he/him, pronunciations: Shyang-pung How)</h1>
 			<div style="margin-left: 1px;">
-				<span>Last update: {formattedDate}.</span><a href="/life" style="margin-left: 1em;"
+				<span>Last update: {formattedDate}.</span><a href="{base}/life" style="margin-left: 1em;"
 					>Non-academic</a
 				>
 			</div>
@@ -37,7 +38,7 @@
 				<br />
 				My PhD advisor is
 				<a href="https://pages.cs.wisc.edu/~remzi/">Remzi H. Arpaci-Dusseau</a>. My PhD is
-				<a href="/fund">funded</a>
+				<a href="{base}/fund">funded</a>
 				(2024-2025) by
 				<a href="https://www.influxdata.com">
 					<img
