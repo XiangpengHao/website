@@ -104,18 +104,18 @@
 			</div>
 			<div class="card" style="width: 300px;">
 				<img src={portrait} class="pure-img" alt="Xiangpeng on Mt. Rainier" style="width: 100%;" />
-				<p style="margin: -0.3em;">
-					(<a href="https://aoli.al"><img src={lgbtFlag} class="logo-large" alt="LGBT flag" /></a>
-					Mt. Rainier,
-					<a href="https://www.linkedin.com/in/dujian-ding-250123133">credit</a>)
-				</p>
+
 				<div style="max-width:100%;display: flex; justify-content: space-between; margin-top:1em;">
 					<div><a href={cv}>CV</a></div>
 					<div><a href="https://blog.haoxp.xyz">Blog</a></div>
-					<div><a href="https://t.me/life_xiangpeng">Life (CN)</a></div>
+					<div>
+						<a href="https://t.me/life_xiangpeng">Life</a>
+						<a href="https://aoli.al"><img src={lgbtFlag} class="logo-large" alt="LGBT flag" /></a>
+					</div>
 					<div><a href="https://github.com/XiangpengHao">GitHub</a></div>
 					<div><a href="https://www.linkedin.com/in/hao-xiangpeng/">LinkedIn</a></div>
 				</div>
+				<p></p>
 			</div>
 		</div>
 
