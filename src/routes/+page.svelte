@@ -7,7 +7,7 @@
 
 	import cv from '$lib/assets/Xiangpeng_Hao_CV.pdf';
 
-	let paper_open = false;
+	let paper_open = true;
 
 	const currentDate = new Date();
 	const formattedDate = currentDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long' });
@@ -136,7 +136,7 @@
 					</li>
 					<li>
 						Performance, <a href="https://motherduck.com/blog/perf-is-not-enough/"
-							>between keyboard and screen.</a
+							>from keyboard to screen.</a
 						>
 					</li>
 				</ol>
@@ -188,57 +188,62 @@
 				</section>
 			</div>
 			<div class="card" style="line-height: 140%; width: 300px;">
-				While <Tooltip theme="hxp" content="... and being a reasonable person"
-					>building systems</Tooltip
-				>, I publish papers (not the opposite!).
+				While building systems, I publish papers.
 
-				<CollapsibleCard open={paper_open}>
-					<u slot="header">Click to show.</u>
-					<div slot="body">
-						<p>
-							Towards Buffer Management with Tiered Main Memory.<br />
-							<strong>Xiangpeng Hao</strong>, Xinjing Zhou, Xiangyao Yu, Michael Stonebraker. SIGMOD
-							2024, to appear.
-						</p>
+				<div style="overflow-y: auto; max-height: 800px; font-size: small;">
+					<p>
+						Bf-Tree: A Modern Read-Write-Optimized Concurrent Larger-Than-Memory Range Index.<br />
+						<strong>Xiangpeng Hao</strong>, Badrish Chandramouli. (VLDB 2024) [<a
+							href="https://github.com/XiangpengHao/bf-tree-docs">more</a
+						>]
+					</p>
+					<p>
+						Shadow Filesystems: Recovering from Filesystem Runtime Errors via Robust Alternative
+						Execution.<br />
+						Jing Liu, <strong>Xiangpeng Hao</strong>, Andrea Arpaci-Dusseau, Remzi Arpaci-Dusseau,
+						Tej Chajed. (HotStorage '24)
+					</p>
+					<p>
+						Towards Buffer Management with Tiered Main Memory.<br />
+						<strong>Xiangpeng Hao</strong>, Xinjing Zhou, Xiangyao Yu, Michael Stonebraker. (SIGMOD
+						2024)
+					</p>
 
-						<p>
-							Blink-hash: An Adaptive Hybrid Index for In-Memory Time-Series Databases<br />
-							Hokeun Cha, <strong>Xiangpeng Hao</strong>, Tianzheng Wang, Huanchen Zhang, Aditya
-							Akella, Xiangyao Yu. Proceedings of the VLDB Endowment (VLDB 2023)
-						</p>
+					<p>
+						Blink-hash: An Adaptive Hybrid Index for In-Memory Time-Series Databases<br />
+						Hokeun Cha, <strong>Xiangpeng Hao</strong>, Tianzheng Wang, Huanchen Zhang, Aditya
+						Akella, Xiangyao Yu. Proceedings of the VLDB Endowment (VLDB 2023)
+					</p>
 
-						<p>
-							Towards Accelerating Data Intensive Application's Shuffle Process Using SmartNICs <br
-							/>
-							Jiaxin Lin, Tao Ji, <strong>Xiangpeng Hao</strong>, Hokeun Cha, Yanfang Le, Xiangyao
-							Yu, Aditya Akella Proceedings of the ACM on Measurement and Analysis of Computing
-							Systems
-						</p>
-						<p>
-							PiBench Online: Interactive Benchmarking of Persistent Memory Indexes (Demo). <br
-							/><strong>Xiangpeng Hao</strong>, Lucas Lersch, Tianzheng Wang, Ismail Oukid. 45th
-							International Conference on Very Large Data Bases (VLDB 2020)
-						</p>
-						<p>
-							DASH: Dynamic and Scalable Hashing on Persistent Memory.<br /> Baotong Lu,
-							<strong>Xiangpeng Hao</strong>, Tianzheng Wang, Eric Lo. 45th International Conference
-							on Very Large Data Bases (VLDB 2020)
-						</p>
-						<p>
-							Evaluating Persistent Memory based Range Indexes.<br /> Lucas Lersch,
-							<strong>Xiangpeng Hao</strong>, Ismail Oukid, Tianzheng Wang, Thomas Willhalm. 45th
-							International Conference on Very Large Data Bases (VLDB 2020)
-						</p>
-						<p>
-							Evaluating Colour Constancy on the new MIST dataset of Multi-Illuminant Scenes.<br />
-							<strong>Xiangpeng Hao</strong>, Brian Funt, Hanxiao Jiang. 27th Color Image Conference
-						</p>
-						<p>
-							A Multi-illuminant Synthetic Image Test Set.<br /> <strong>Xiangpeng Hao</strong>,
-							Brian Funt. Color Research and Application
-						</p>
-					</div>
-				</CollapsibleCard>
+					<p>
+						Towards Accelerating Data Intensive Application's Shuffle Process Using SmartNICs <br />
+						Jiaxin Lin, Tao Ji, <strong>Xiangpeng Hao</strong>, Hokeun Cha, Yanfang Le, Xiangyao Yu,
+						Aditya Akella Proceedings of the ACM on Measurement and Analysis of Computing Systems
+					</p>
+					<p>
+						PiBench Online: Interactive Benchmarking of Persistent Memory Indexes (Demo). <br
+						/><strong>Xiangpeng Hao</strong>, Lucas Lersch, Tianzheng Wang, Ismail Oukid. 45th
+						International Conference on Very Large Data Bases (VLDB 2020)
+					</p>
+					<p>
+						DASH: Dynamic and Scalable Hashing on Persistent Memory.<br /> Baotong Lu,
+						<strong>Xiangpeng Hao</strong>, Tianzheng Wang, Eric Lo. 45th International Conference
+						on Very Large Data Bases (VLDB 2020)
+					</p>
+					<p>
+						Evaluating Persistent Memory based Range Indexes.<br /> Lucas Lersch,
+						<strong>Xiangpeng Hao</strong>, Ismail Oukid, Tianzheng Wang, Thomas Willhalm. 45th
+						International Conference on Very Large Data Bases (VLDB 2020)
+					</p>
+					<p>
+						Evaluating Colour Constancy on the new MIST dataset of Multi-Illuminant Scenes.<br />
+						<strong>Xiangpeng Hao</strong>, Brian Funt, Hanxiao Jiang. 27th Color Image Conference
+					</p>
+					<p>
+						A Multi-illuminant Synthetic Image Test Set.<br /> <strong>Xiangpeng Hao</strong>, Brian
+						Funt. Color Research and Application
+					</p>
+				</div>
 			</div>
 		</div>
 	</div>
