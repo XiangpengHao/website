@@ -1,20 +1,15 @@
 <script>
 	import portrait from '$lib/assets/xiangpeng.jpg';
 	import lgbtFlag from '$lib/assets/lgbt.gif';
-	import { Tooltip } from '@svelte-plugins/tooltips';
-	import { CollapsibleCard } from 'svelte-collapsible';
-	import { base } from '$app/paths';
-
 	import cv from '$lib/assets/Xiangpeng_Hao_CV.pdf';
-
-	let paper_open = true;
+	import { base } from '$app/paths';
 
 	const currentDate = new Date();
 	const formattedDate = currentDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long' });
 </script>
 
-<div>
-	<div style="width: 1000px;">
+<div class="container">
+	<div class="content">
 		<div style="display: flex; flex-wrap: wrap; justify-content:center; margin-bottom:1em;">
 			<h1>Xiangpeng Hao</h1>
 			<h1>(he/him, pronunciations: Shyang-pung How)</h1>
@@ -22,6 +17,7 @@
 				<span>Last update: {formattedDate}.</span><a href="{base}/life" style="margin-left: 1em;"
 					>Non-academic</a
 				>
+				<a href="{base}/work-with-me" style="margin-left: 1em;">Work with me</a>
 			</div>
 		</div>
 
@@ -53,8 +49,12 @@
 				<br />
 
 				<br />
-				I worked on multiple database engines and key-value stores -- Arrow, DataFusion, Parquet, BigTable,
-				Spanner,
+				I worked on multiple database engines and key-value stores --
+				<a href="https://arrow.apache.org">Arrow</a>,
+				<a href="https://datafusion.apache.org">DataFusion</a>,
+				<a href="https://parquet.apache.org">Parquet</a>,
+				<a href="https://cloud.google.com/bigtable">BigTable</a>,
+				<a href="https://cloud.google.com/spanner">Spanner</a>,
 				<a href="https://github.com/microsoft/FASTER">FASTER</a>,
 				<a href="https://github.com/microsoft/garnet">Garnet</a>,
 				<a href="https://www.vldb.org/pvldb/vol17/p3442-hao.pdf">Bf-Tree</a>,
@@ -267,6 +267,7 @@
 		font-size: 1.1rem;
 		font-weight: 500;
 		font-style: normal;
+		margin: 0;
 	}
 
 	.logo {
@@ -308,5 +309,22 @@
 		line-height: 0.1em;
 		margin-right: 0.25em;
 		vertical-align: -0.4em;
+	}
+
+	:global(.container) {
+		display: flex;
+		justify-content: center; /* Centers horizontally */
+		align-items: center; /* Centers vertically (if needed) */
+		min-height: 100vh; /* Ensures the container takes full viewport height */
+		padding: 1em; /* Optional: Adds some padding */
+		background-color: #f0f0f0; /* Optional: Background color for visual aid */
+	}
+
+	:global(.content) {
+		width: 1000px;
+		background-color: white; /* Optional: Background color for the content */
+		padding: 2em; /* Optional: Adds padding inside the content */
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.05); /* Optional: Adds a subtle shadow */
+		border-radius: 4px; /* Optional: Rounded corners */
 	}
 </style>
