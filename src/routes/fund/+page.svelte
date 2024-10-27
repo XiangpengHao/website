@@ -4,7 +4,7 @@
 
 <div style="margin: 0.5em; font-family: Helvetica, Arial, sans-serif">
 	<a href="{base}/">Back</a>
-	<h1>Fund my PhD</h1>
+	<h1>Fund my PhD for $55k/year</h1>
 	<h2>Why it is a great deal?</h2>
 	<div>
 		<p>
@@ -20,19 +20,18 @@
 		</p>
 		<p>I write in Rust -- thousands lines of Rust just for arrow-rs.</p>
 		<p>
-			$50k can fund me for a year, much much cheaper than a FTE with PhD degree. Need more flexible?
+			$55k can fund me for a year, much much cheaper than a FTE with PhD degree. Need more flexible?
 			See below.
 		</p>
 	</div>
 	<h2>Funding tiers</h2>
 
 	<div>
-		<del>
-			<strong>100% of my time.</strong> You make $55K charitable giving to the
-			<a href="https://www.advanceuw.org">university</a>
-			under
-			<a href="https://pages.cs.wisc.edu/~remzi/">my advisor's</a> name, I work full time on the project.
-		</del>
+		<strong>100% of my time.</strong> You make $55K charitable giving to the
+		<a href="https://www.advanceuw.org">university</a>
+		under
+		<a href="https://pages.cs.wisc.edu/~remzi/">my advisor's</a> name, I work full time on the
+		project.
 		<strong
 			>I'm currently funded by InfluxData during 2024-2025 for working on Apache
 			DataFusion/Arrow/Parquet.</strong
@@ -88,10 +87,7 @@
 	</div>
 	<h2>Connect</h2>
 	<div><a href="mailto:xiangpeng.hao@wisc.edu">xiangpeng.hao@wisc.edu</a></div>
-	<div>
-		Last update August 2024 <del>, act fast while I'm available!</del>, no longer open to
-		opportunities!
-	</div>
+	<div>Last update October 2024, act fast while I'm available!</div>
 	<br />
 </div>
 
