@@ -59,6 +59,17 @@
 					Jobs
 				</p>
 			</section>
+			<section>
+				<h4>
+					The best is the enemy of the good (<a href="https://jamesclear.com/quote/atomic-habits"
+						>source</a
+					>)
+				</h4>
+				<p>
+					We are so focused on figuring out the best approach that we never get around to taking
+					action. As Voltaire once wrote, ‘The best is the enemy of the good.’
+				</p>
+			</section>
 		</div>
 	</div>
 </div>
