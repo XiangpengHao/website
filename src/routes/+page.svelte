@@ -313,18 +313,19 @@
 
 	:global(.container) {
 		display: flex;
-		justify-content: center; /* Centers horizontally */
-		align-items: center; /* Centers vertically (if needed) */
-		min-height: 100vh; /* Ensures the container takes full viewport height */
-		padding: 1em; /* Optional: Adds some padding */
-		background-color: #f0f0f0; /* Optional: Background color for visual aid */
+		justify-content: center;
+		align-items: center;
+		min-height: 100vh;
+		padding: 1em;
+		background-color: #f0f0f0;
 	}
 
 	:global(.content) {
-		width: 1000px;
-		background-color: white; /* Optional: Background color for the content */
-		padding: 2em; /* Optional: Adds padding inside the content */
-		box-shadow: 0 0 10px rgba(0, 0, 0, 0.05); /* Optional: Adds a subtle shadow */
-		border-radius: 4px; /* Optional: Rounded corners */
+		max-width: 1000px;
+		width: 100%;
+		background-color: white;
+		padding: 2em;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+		border-radius: 4px;
 	}
 </style>
