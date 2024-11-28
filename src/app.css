@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-cormorant text-base md:text-lg font-medium;
+  }
+
+  h1 {
+    @apply text-2xl md:text-3xl font-semibold mb-2;
+  }
+
+  a {
+    @apply text-blue-600 hover:text-blue-800 underline decoration-1 underline-offset-2;
+  }
+
+  /* Remove underline from logo links */
+  a:has(img) {
+    @apply no-underline;
+  }
+
+  /* Make lists more readable on mobile */
+  ol, ul {
+    @apply pl-4 md:pl-8 space-y-2;
+  }
+
+  /* Style list items */
+  li {
+    @apply mb-2 relative;
+  }
+
+  /* Style ordered list items */
+  ol {
+    @apply list-decimal;
+  }
+
+  /* Style unordered list items */
+  ul {
+    @apply list-disc;
+  }
+
+  /* Adjust spacing for mobile */
+  p {
+    @apply mb-3 md:mb-4;
+  }
+}
+
+@layer components {
+  .logo {
+    @apply h-[1.2em] align-middle;
+  }
+
+  .logo-large {
+    @apply h-[1.4em] align-middle;
+  }
+
+  .quote {
+    @apply leading-relaxed bg-gray-50 border-l-4 md:border-l-8 border-gray-300 my-4 md:my-6 px-2 md:px-2.5 py-2 font-cormorant relative pl-12 md:pl-14;
+  }
+
+  .quote:before {
+    @apply text-gray-300 text-4xl md:text-6xl absolute left-3 top-1 leading-none content-[open-quote];
+  }
+} 

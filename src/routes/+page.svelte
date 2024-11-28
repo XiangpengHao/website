@@ -3,26 +3,28 @@
 	import lgbtFlag from '$lib/assets/lgbt.gif';
 	import cv from '$lib/assets/Xiangpeng_Hao_CV.pdf';
 	import { base } from '$app/paths';
-
-	const currentDate = new Date();
-	const formattedDate = currentDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long' });
+	import '../app.css';
 </script>
 
-<div class="container">
-	<div class="content">
-		<div style="display: flex; flex-wrap: wrap; justify-content:center; margin-bottom:1em;">
-			<h1>Xiangpeng Hao</h1>
-			<h1>(he/him, pronunciations: Shyang-pung How)</h1>
-			<div style="margin-left: 1px;">
-				<span>Last update: {formattedDate}.</span><a href="{base}/life" style="margin-left: 1em;"
-					>Non-academic</a
-				>
-				<a href="{base}/work-with-me" style="margin-left: 1em;">Work with me</a>
+<div class="flex justify-center items-center min-h-screen p-4 bg-gray-100">
+	<div class="max-w-[1000px] w-full bg-white p-4 md:p-8 shadow-sm rounded">
+		<div class="flex flex-wrap justify-center mb-8">
+			<div class="w-full text-center">
+				<h1 class="text-3xl md:text-4xl font-semibold mb-2">Xiangpeng Hao</h1>
+				<p class="text-lg md:text-xl text-gray-700 mb-4">
+					(he/him, pronunciations: Shyang-pung How)
+				</p>
+				<div class="text-sm md:text-base text-gray-600 space-y-2 md:space-y-0">
+					<a href="{base}/life" class="block md:inline md:ml-6 text-blue-600">Non-academic</a>
+					<a href="{base}/work-with-me" class="block md:inline md:ml-6 text-blue-600"
+						>Work with me</a
+					>
+				</div>
 			</div>
 		</div>
 
-		<div style="display: flex;">
-			<div class="card" style="line-height: 140%; width: 700px;">
+		<div class="flex flex-col md:flex-row">
+			<div class="card w-full md:w-[700px] leading-normal">
 				<!-- <strong style="font-family: Helvetica, Arial, sans-serif;"
 					>Want my 100% time for only 50% SWE cost? <a href="/fund">Fund my PhD research!</a
 					></strong
@@ -43,13 +45,15 @@
 						alt="InfluxData logo"
 					/>
 				</a>
-				to work on Apache <a href="https://github.com/apache/datafusion">DataFusion</a>/<a
-					href="https://github.com/apache/arrow-rs">Arrow</a
-				>/<a href="https://github.com/apache/arrow-rs/tree/master/parquet">Parquet</a>.
+				to work on Apache <a href="https://arrow.apache.org/docs/format/Flight.html">Flight</a>/<a
+					href="https://github.com/apache/datafusion">DataFusion</a
+				>/<a href="https://github.com/apache/arrow-rs">Arrow</a>/<a
+					href="https://github.com/apache/arrow-rs/tree/master/parquet">Parquet</a
+				>.
 				<br />
 
 				<br />
-				I worked on multiple database engines and key-value stores --
+				I worked on multiple data-intensive systems --
 				<a href="https://arrow.apache.org">Arrow</a>,
 				<a href="https://datafusion.apache.org">DataFusion</a>,
 				<a href="https://parquet.apache.org">Parquet</a>,
@@ -71,7 +75,7 @@
 					href="http://databasearchitects.blogspot.com/2023/01/for-systems-research-is-development-and.html"
 					>System</a
 				> <a href="http://www.jfsowa.com/ikl/Stonebraker.pdf">research</a>
-				<a href="http://herpolhode.com/rob/utah2000.pdf">without</a> being grounded by
+				without being grounded by
 				<strong>real</strong>
 				systems, is a waste of intelligence and time.
 				<br />
@@ -102,79 +106,81 @@
 
 				<!-- Many other people helped me along the way, I'm grateful for all of them. -->
 			</div>
-			<div class="card" style="width: 300px;">
-				<img src={portrait} class="pure-img" alt="Xiangpeng on Mt. Rainier" style="width: 100%;" />
-
-				<div style="max-width:100%;display: flex; justify-content: space-between; margin-top:1em;">
+			<div class="card w-full md:w-[300px]">
+				<img src={portrait} class="w-full" alt="Xiangpeng on Mt. Rainier" />
+				<div class="flex flex-wrap justify-between mt-4 gap-2">
 					<div><a href={cv}>CV</a></div>
 					<div><a href="https://blog.haoxp.xyz">Blog</a></div>
-					<div>
+					<div class="flex items-center gap-2">
 						<a href="https://t.me/life_xiangpeng">Life</a>
 						<a href="https://aoli.al"><img src={lgbtFlag} class="logo-large" alt="LGBT flag" /></a>
 					</div>
 					<div><a href="https://github.com/XiangpengHao">GitHub</a></div>
 					<div><a href="https://www.linkedin.com/in/hao-xiangpeng/">LinkedIn</a></div>
 				</div>
-				<p></p>
 			</div>
 		</div>
 
-		<div style="display: flex; margin-top: 1em; ">
-			<div class="card" style="width:700px;">
-				Design axioms (ordered)
-				<ol style="margin-top: 0.5em;">
-					<li>
-						People-centric. I build systems for people to {'{'}use | build-upon | contribute{'}'},
-						not just for academic records.
-					</li>
-					<li>
-						Correctness. I code in
-						<strong>Rust</strong>, <a href="https://github.com/rust-fuzz/cargo-fuzz">fuzz test</a>
-						all the core components, run
-						<a href="https://github.com/awslabs/shuttle">systematic concurrency tests</a> on all multi-threaded
-						code.
-					</li>
-					<li>
-						Performance, <a href="https://motherduck.com/blog/perf-is-not-enough/"
-							>from keyboard to screen.</a
-						>
-					</li>
-				</ol>
+		<div class="flex flex-col md:flex-row mt-4">
+			<div class="card w-full md:w-[700px] leading-normal">
+				<div class="space-y-8">
+					<div>
+						<div class="mb-4">
+							I build <a href="http://herpolhode.com/rob/utah2000.pdf">systems</a>
+						</div>
+						<ol class="mt-2">
+							<li>
+								People-centric. I build systems for people to {'{'}use | build-upon | contribute{'}'},
+								not just for academic records.
+							</li>
+							<li>
+								Correctness. I code in Rust,
+								<a href="https://github.com/rust-fuzz/cargo-fuzz">fuzz test</a>
+								all the core components, run
+								<a href="https://github.com/awslabs/shuttle">systematic concurrency tests</a> on all
+								multi-threaded code.
+							</li>
+							<li>
+								Performance, <a href="https://motherduck.com/blog/perf-is-not-enough/"
+									>from keyboard to screen.</a
+								>
+							</li>
+						</ol>
+					</div>
 
-				I'm an &nbsp;<a href="https://plato.stanford.edu/entries/existentialism/">existentialist</a
-				>.
-				<ul style="margin-top: 0.5em;">
-					<li>
-						<strong>Existence Precedes Essence.</strong> We exist for ourselves as self-making or self-defining
-						beings, and we are always in the process of making or defining ourselves through the situated
-						choices we make as our lives unfold.
-					</li>
-					<li>
-						<strong>Freedom.</strong> It is true that we are free to create ourselves, but it is also
-						true that we are already created by our situation.
-					</li>
-					<li>
-						<strong>Nihilism.</strong> (1) individualism and loneliness (2) life is regulated and controlled
-						by faceless bureaucrats.
-					</li>
-				</ul>
-				<section>Leap of faith: Be nice; Be good to society.</section>
+					<div>
+						<div class="mb-4">
+							I'm an <a href="https://plato.stanford.edu/entries/existentialism/">existentialist</a>
+						</div>
+						<ul class="mt-2">
+							<li>
+								<strong>Existence Precedes Essence.</strong> We exist for ourselves as self-making or
+								self-defining beings, and we are always in the process of making or defining ourselves
+								through the situated choices we make as our lives unfold.
+							</li>
+							<li>
+								<strong>Freedom.</strong> It is true that we are free to create ourselves, but it is
+								also true that we are already created by our situation.
+							</li>
+							<li>
+								<strong>Nihilism.</strong> (1) individualism and loneliness (2) life is regulated and
+								controlled by faceless bureaucrats.
+							</li>
+						</ul>
+						<p class="mt-4">Leap of faith: Be nice; Be good to society.</p>
+					</div>
 
-				<br />
+					<div>
+						<div class="mb-4">Good reads</div>
+						<ol class="mt-2">
+							<li>
+								<a href="https://www.goodreads.com/en/book/show/17895842">Returning to Reims</a>
+							</li>
+							<li><a href="https://www.goodreads.com/book/show/12505.The_Idiot">The Idiot</a></li>
+						</ol>
+					</div>
 
-				<p style="margin-bottom: 0">Good reads:</p>
-				<ol style="margin-top: 0">
-					<li>
-						<a href="https://www.goodreads.com/en/book/show/17895842">Returning to Reims</a>
-					</li>
-					<li><a href="https://www.goodreads.com/book/show/12505.The_Idiot">The Idiot</a></li>
-					<!-- <li> -->
-					<!-- <a href="https://www.goodreads.com/en/book/show/4934">The Brothers Karamazov</a> -->
-					<!-- </li> -->
-				</ol>
-
-				<section>
-					<div class="quote" style="margin-top: 0.5em;">
+					<div class="quote mt-2">
 						It’s the disease of thinking that a really great idea is 90% of the work. And if you
 						just tell all these other people “here’s this great idea,” then of course they can go
 						off and make it happen. And the problem with that is that there’s just a tremendous
@@ -185,12 +191,11 @@
 						thousand things in your brain and fitting them all together in new and different ways to
 						get what you want. -- Steve Jobs
 					</div>
-				</section>
+				</div>
 			</div>
-			<div class="card" style="line-height: 140%; width: 300px;">
-				While building systems, I publish papers.
-
-				<div style="overflow-y: auto; max-height: 800px; font-size: small;">
+			<div class="card w-full md:w-[300px] leading-normal">
+				<div class="mb-4">I publish papers</div>
+				<div class="overflow-y-auto max-h-[800px] text-sm">
 					<p>
 						Bf-Tree: A Modern Read-Write-Optimized Concurrent Larger-Than-Memory Range Index.<br />
 						<strong>Xiangpeng Hao</strong>, Badrish Chandramouli. (VLDB 2024) [<a
@@ -250,82 +255,7 @@
 </div>
 
 <style>
-	:global(.tooltip.hxp) {
-		--tooltip-background-color: rgb(54, 54, 54);
-		--tooltip-arrow-size: 5px;
-		--tooltip-border-radius: 1px;
-		--tooltip-font-size: 11px;
-		--tooltip-line-height: 1rem;
-		--tooltip-offset-y: 5px !important;
-		--tooltip-padding: 8px;
-		--tooltip-offset-x: 5px;
-	}
-
-	:global(body) {
-		font-family: 'Cormorant Garamond', serif;
-		/* font-family: 'Open Sans', sans-serif; */
-		font-size: 1.1rem;
-		font-weight: 500;
-		font-style: normal;
-		margin: 0;
-	}
-
-	.logo {
-		height: 1.2em; /* Set the height to match the line height */
-		vertical-align: middle; /* Align the image vertically to the middle */
-	}
-
-	.logo-large {
-		height: 1.4em; /* Set the height to match the line height */
-		vertical-align: middle; /* Align the image vertically to the middle */
-	}
-
 	.card {
-		border: 2px solid #f5f5f5;
-		padding: 0.5em;
-		border-radius: 1px;
-		margin-bottom: 1em;
-		margin-left: 0.5em;
-	}
-
-	h1 {
-		margin-top: 0;
-		margin-bottom: 0;
-	}
-
-	.quote {
-		line-height: 1.5;
-		background-color: #f9f9f9;
-		border-left: 10px solid #ccc;
-		margin: 1.5em 10px;
-		padding: 0.5em 10px;
-		quotes: '\201C' '\201D' '\2018' '\2019';
-		font-family: 'Cormorant Garamond', serif;
-	}
-	.quote:before {
-		color: #ccc;
-		content: open-quote;
-		font-size: 4em;
-		line-height: 0.1em;
-		margin-right: 0.25em;
-		vertical-align: -0.4em;
-	}
-
-	:global(.container) {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		min-height: 100vh;
-		padding: 1em;
-		background-color: #f0f0f0;
-	}
-
-	:global(.content) {
-		max-width: 1000px;
-		width: 100%;
-		background-color: white;
-		padding: 2em;
-		box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-		border-radius: 4px;
+		@apply border-2 border-gray-100 p-2 rounded mb-4 md:ml-2;
 	}
 </style>
