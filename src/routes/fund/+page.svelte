@@ -2,23 +2,26 @@
 	import { base } from '$app/paths';
 </script>
 
-<div style="margin: 0.5em; font-family: Helvetica, Arial, sans-serif">
-	<a href="{base}/">Back</a>
+<div class="academic-container">
+	<a href="{base}/" class="back-link">Back</a>
 	<h1>Fund my PhD for $55k/year</h1>
 	<h2>Why it is a great deal?</h2>
 	<div>
 		<p>
-			I do database, especially the memory/storage subsystems, published <a
-				href="https://scholar.google.com/citations?user=j9DShRMAAAAJ">multiple papers</a
-			> in top-tier conferences, worked for Google, Microsoft, and InfluxData.
+			I'm a fifth year PhD student building cloud-native database systems, especially the <a
+				href="https://github.com/XiangpengHao/liquid-cache">caching subsystems</a
+			>, published
+			<a href="https://scholar.google.com/citations?user=j9DShRMAAAAJ">multiple papers</a> in top-tier
+			conferences, worked for Google, Microsoft, and InfluxData.
 		</p>
 		<p>
-			I write real code. I'm an <a
-				href="https://github.com/apache/arrow-rs/commits/master/?author=XiangpengHao"
+			I write real Rust -- more than <a href="https://github.com/XiangpengHao"
+				>50k accumulated lines</a
+			>. I'm an
+			<a href="https://github.com/apache/arrow-rs/commits/master/?author=XiangpengHao"
 				>active contributor</a
-			> to Arrow/Parquet/DataFusion. If you use these projects, you might already using my code.
+			> to Arrow/Parquet/DataFusion. If you depend on these projects, you might already using my code.
 		</p>
-		<p>I write in Rust -- thousands lines of Rust just for arrow-rs.</p>
 		<p>
 			$55k can fund me for a year, much much cheaper than a FTE with PhD degree. Need more flexible?
 			See below.
@@ -40,7 +43,7 @@
 	<br />
 	<div>
 		<del
-			><strong>20-50% of my time.</strong> I work as a part-time intern for your company during Spring/Fall
+			>20-50% of my time. I work as a part-time intern for your company during Spring/Fall
 			semesters.</del
 		>
 	</div>
@@ -87,13 +90,78 @@
 	</div>
 	<h2>Connect</h2>
 	<div><a href="mailto:xiangpeng.hao@wisc.edu">xiangpeng.hao@wisc.edu</a></div>
-	<div>Last update October 2024, act fast while I'm available!</div>
+	<div>Last update March 2025, act fast while I'm available!</div>
 	<br />
 </div>
 
 <style>
+	/* Base academic styling */
+	:global(body) {
+		background-color: #f8f8f8;
+		line-height: 1;
+		color: #333;
+	}
+
+	.academic-container {
+		font-family: 'Times New Roman', serif;
+		max-width: 800px;
+		margin: 2rem auto;
+		padding: 2rem;
+		background-color: white;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+		border-left: 4px solid #3a5683;
+	}
+
+	h1 {
+		font-size: 2rem;
+		color: #2c3e50;
+		margin-top: 0;
+		margin-bottom: 1.5rem;
+		padding-bottom: 0.5rem;
+		border-bottom: 1px solid #eee;
+	}
+
 	h2 {
-		margin-top: 1.5em;
-		margin-bottom: 0.5em;
+		font-size: 1.5rem;
+		color: #34495e;
+		margin-top: 1.8em;
+		margin-bottom: 0.8em;
+	}
+
+	p {
+		margin-bottom: 1rem;
+	}
+
+	a {
+		color: #3a5683;
+		text-decoration: none;
+		border-bottom: 1px dotted #3a5683;
+	}
+
+	a:hover {
+		color: #1a356d;
+		border-bottom: 1px solid #1a356d;
+	}
+
+	.back-link {
+		display: inline-block;
+		margin-bottom: 1.5rem;
+		border-bottom: none;
+	}
+
+	code {
+		background-color: #f5f5f5;
+		padding: 2px 5px;
+		border-radius: 3px;
+		font-family: Consolas, Monaco, 'Andale Mono', monospace;
+		font-size: 0.9em;
+	}
+
+	strong {
+		color: #2c3e50;
+	}
+
+	del {
+		color: #777;
 	}
 </style>
