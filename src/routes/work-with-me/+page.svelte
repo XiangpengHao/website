@@ -43,10 +43,16 @@
 
 			<section>
 				<h3 class="text-xl md:text-2xl font-semibold mb-4">
+					I spend 100% of my time and passion on <a
+						href="https://github.com/XiangpengHao/liquid-cache">LiquidCache</a
+					>.
+				</h3>
+				<h3 class="text-xl md:text-2xl font-semibold mb-4">
+					Get started by fixing some of the
 					<a
-						href="https://xiangpeng-hao.notion.site/Cool-Projects-with-Modern-Data-Analytics-11ed7d7dd30380a888eed5614fb79aa0"
-						>List of projects →</a
-					>
+						href="https://github.com/XiangpengHao/liquid-cache/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22"
+						>help-wanted issues</a
+					>.
 				</h3>
 			</section>
 		</div>
