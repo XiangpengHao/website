@@ -4,6 +4,7 @@
 	import cv from '$lib/assets/Xiangpeng_Hao_CV.pdf';
 	import { base } from '$app/paths';
 	import '../app.css';
+	import LiquidCache from '$lib/assets/liquid-cache.png';
 </script>
 
 <div class="flex justify-center items-center min-h-screen p-4 bg-gray-100">
@@ -29,6 +30,13 @@
 					>Want my 100% time for only 50% SWE cost? <a href="/fund">Fund my PhD research!</a
 					></strong
 				> -->
+				<div class="text-cyan-800 mb-8">
+					<strong style="font-family: Helvetica, Arial, sans-serif;"
+						><a href="https://github.com/XiangpengHao/liquid-cache">
+							<img src={LiquidCache} class="h-16 inline" alt="LiquidCache" /></a
+						>-- a purpose-built DataFusion cache to save your S3 cost by 10x.
+					</strong>
+				</div>
 				<!-- <br /> -->
 				<!-- <br /> -->
 				I'm a fourth year PhD student at the University of Wisconsin-Madison studying computer science
