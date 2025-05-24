@@ -33,7 +33,7 @@
 			</section>
 
 			<section class="qualifications">
-				<h2>What I did when InfluxData funded me</h2>
+				<h2>What I did last year (2024.09-2025.05) when InfluxData funded me</h2>
 
 				<h3>Coding</h3>
 				<ul>
@@ -198,7 +198,7 @@
 			</section>
 
 			<section class="research-approach">
-				<h2>What's next?</h2>
+				<h2>What's next (now - 2026.06)?</h2>
 
 				<h3>Coding</h3>
 				<ol>
@@ -209,7 +209,7 @@
 					<li>
 						Building LiquidEvict (as part of LiquidCache), a cache management system designed from
 						the ground up for Arrow-native memory management. Aims to achieve efficient memory and
-						disk usage. My full proposal can be found
+						disk usage. Full proposal is
 						<a href={liquidEvict}>here</a>.
 					</li>
 					<li>
