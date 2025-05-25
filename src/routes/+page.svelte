@@ -26,21 +26,23 @@
 
 		<div class="flex flex-col md:flex-row">
 			<div class="card w-full md:w-[700px] leading-normal">
-				<!-- <strong style="font-family: Helvetica, Arial, sans-serif;"
-					>Want my 100% time for only 50% SWE cost? <a href="/fund">Fund my PhD research!</a
-					></strong
-				> -->
-				<div class="text-cyan-800 mb-8">
-					<strong style="font-family: Helvetica, Arial, sans-serif;"
-						><a href="https://github.com/XiangpengHao/liquid-cache">
-							<img src={LiquidCache} class="h-16 inline" alt="LiquidCache" /></a
-						>-- a purpose-built DataFusion cache to save your S3 cost by 10x.
-					</strong>
-				</div>
+				<ul class="text-cyan-800 mb-8" style="font-family: Helvetica, Arial, sans-serif">
+					<li>
+						<strong>(May 2025) <a href="/fund">Fund my PhD research!</a></strong>
+					</li>
+					<li>
+						<strong
+							><a href="https://github.com/XiangpengHao/liquid-cache">
+								<img src={LiquidCache} class="h-16 inline" alt="LiquidCache" /></a
+							>-- a purpose-built DataFusion cache to save your S3 cost by 10x.
+						</strong>
+					</li>
+				</ul>
+
 				<!-- <br /> -->
 				<!-- <br /> -->
-				I'm a fourth year PhD student at the University of Wisconsin-Madison studying computer science
-				with a focus on database/storage systems.
+				I'm a final (i.e., fifth, hopefully) year PhD student at the University of Wisconsin-Madison
+				studying computer science with a focus on database/storage systems.
 				<br />
 				My PhD advisor is
 				<a href="https://pages.cs.wisc.edu/~remzi/">Remzi H. Arpaci-Dusseau</a>. My PhD is

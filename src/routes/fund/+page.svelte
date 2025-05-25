@@ -3,6 +3,7 @@
 	import ParquetViewer from '$lib/assets/parquet-viewer.jpg';
 	import proposal from '$lib/assets/proposal.png';
 	import liquidEvict from '$lib/assets/LiquidCache-prelim-3.pdf';
+	import liquidCacheRepo from '$lib/assets/liquid-cache-repo.jpg';
 	import '../../app.css';
 </script>
 
@@ -33,27 +34,28 @@
 			</section>
 
 			<section class="qualifications">
-				<h2>What I did last year (2024.09-2025.05) when InfluxData funded me</h2>
+				<h2>What I did when InfluxData funded me (2024.09-2025.05)</h2>
 
 				<h3>Coding</h3>
 				<ul>
-					<li>
-						Kickstart the ambitious <a href="https://github.com/XiangpengHao/liquid-cache"
+					<li style="margin-bottom: 1rem">
+						Kickstarted the ambitious <a href="https://github.com/XiangpengHao/liquid-cache"
 							>LiquidCache</a
 						>
-						project. With 20k lines of Rust (and increasing) building on top of DataFusion, it is able
-						to run all TPC-H and ClickBench queries. We see up to 10x latency and cost reduction for
-						scan intensive workloads compared to existing caching systems. We expect it to be the
-						<strong>infrastructure for the next generation of cloud analytics</strong>. We
-						acknowledge InfluxData's support in the repo README.
+						project. With 20k lines of Rust (and increasing) building on top of DataFusion, it runs all
+						TPC-H and ClickBench queries. We see up to 10x latency and cost reduction for scan intensive
+						workloads compared to existing caching systems. We expect it to be the
+						<strong>infrastructure of the next generation cloud analytics</strong>. We acknowledge
+						InfluxData's support in the repo README.
+						<img src={liquidCacheRepo} alt="LiquidCache repo" />
 					</li>
-					<li>
+					<li style="margin-bottom: 1rem">
 						For shorter term impacts, I build the <a href="https://parquet-viewer.xiangpeng.systems"
 							>Parquet Viewer</a
 						>, an online tool (also VSCode/Cursor extension) to explore Parquet data as well as its
 						schema and file layout. It compiles DataFusion/Arrow/Parquet to WASM for efficient edge
-						computing. We acknowledge InfluxData in both the open source repo and in the tool
-						itself.
+						computing + LLM for natural language to SQL. We acknowledge InfluxData in both the open
+						source repo and in the tool itself.
 						<img src={ParquetViewer} alt="Parquet Viewer" />
 					</li>
 					<li>
@@ -207,10 +209,12 @@
 						in your infrastructure.
 					</li>
 					<li>
-						Building LiquidEvict (as part of LiquidCache), a cache management system designed from
-						the ground up for Arrow-native memory management. Aims to achieve efficient memory and
-						disk usage. Full proposal is
-						<a href={liquidEvict}>here</a>.
+						<strong>
+							Building LiquidEvict (as part of LiquidCache), a cache management system designed from
+							ground up for Arrow-native memory management. Aims to achieve efficient memory and
+							disk usage. Full proposal is
+							<a href={liquidEvict}>here</a>.</strong
+						>
 					</li>
 					<li>
 						Continue contributing to Apache DataFusion, Arrow, and Parquet, making them more
@@ -303,14 +307,6 @@
 		text-align: center;
 	}
 
-	.subtitle {
-		text-align: center;
-		font-size: 1.1rem;
-		color: #555555;
-		margin: 0.5rem 0;
-		font-style: italic;
-	}
-
 	.date {
 		text-align: right;
 		font-size: 0.9rem;
@@ -348,15 +344,6 @@
 		text-align: justify;
 	}
 
-	/* Executive summary highlight */
-	.fund-page .executive-summary .highlight {
-		background-color: #f8f9fa;
-		border-left: 4px solid #333333;
-		padding: 1rem 1.5rem;
-		margin: 1rem 0;
-		font-size: 1.05rem;
-	}
-
 	/* Lists */
 	.fund-page ul,
 	.fund-page ol {
@@ -366,31 +353,6 @@
 
 	.fund-page li {
 		margin-bottom: 0.5rem;
-	}
-
-	/* Funding options */
-	.funding-option {
-		border: 1px solid #cccccc;
-		padding: 1.5rem;
-		margin: 1rem 0;
-		background-color: #ffffff;
-	}
-
-	.funding-option.primary {
-		border-left: 4px solid #333333;
-	}
-
-	.funding-option.unavailable {
-		background-color: #f8f8f8;
-		color: #666666;
-	}
-
-	.funding-details {
-		margin: 1rem 0;
-	}
-
-	.funding-details div {
-		margin: 0.5rem 0;
 	}
 
 	.status-note {
