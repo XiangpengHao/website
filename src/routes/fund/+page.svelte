@@ -27,8 +27,8 @@
 						>, a disaggregated caching system for disk-less cloud analytics.
 					</li>
 					<li>
-						I acknowledge your support through blog posts, research papers, academic/industry talks,
-						and my thesis report/defense.
+						I acknowledge your support through project repo, blog posts, research papers,
+						academic/industry talks, and my thesis report/defense.
 					</li>
 				</ol>
 			</section>
@@ -227,9 +227,9 @@
 					<li>
 						<strong>(new)</strong> I'm happy to directly write blog posts to your blog.
 					</li>
-					<li>Write a VLDB paper about LiquidCache, with acknowledgements to your support.</li>
 					<li>
-						Write a VLDB/SIGMOD paper about LiquidEvict, with acknowledgements to your support.
+						Write a research paper about LiquidCache and LiquidEvict, with acknowledgements to your
+						support.
 					</li>
 					<li>Write multiple blog posts about LiquidCache and LiquidEvict.</li>
 				</ol>
