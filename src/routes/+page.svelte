@@ -75,7 +75,7 @@
 				<a href="https://dl.acm.org/doi/10.1145/3639286">Two-trees</a>,
 				<a href="https://github.com/XiangpengHao/congee">Congee</a>.<br />
 				<br />
-				<a href="https://blog.haoxp.xyz/posts/research-statement/">My research</a>
+				<a href="https://blog.xiangpeng.systems/posts/research-statement/">My research</a>
 				solves today's problems and directly connects to users . I believe
 				<strong>real</strong>
 				impacts stem from the first-person experience of
@@ -105,11 +105,11 @@
 				<br />
 				<a href="https://www.microsoft.com/en-us/research/people/badrishc/">Badrish Chandramouli</a>
 				-- my intern mentor @MSR. He is a great researcher and
-				<a href="https://blog.haoxp.xyz/posts/good-advisor/">mentor</a>. He reasons what I said, and
+				<a href="https://blog.xiangpeng.systems/posts/good-advisor/">mentor</a>. He reasons what I said, and
 				his attention to details is incredible.
 				<br />
 				<a href="http://andrew.nerdnetworks.org">Andrew Lamb</a> -- my
-				<a href="https://blog.haoxp.xyz/posts/working-at-influxdata/">intern</a>
+				<a href="https://blog.xiangpeng.systems/posts/working-at-influxdata/">intern</a>
 				mentor @InfluxData. His passion and professionalism in DataFusion development have reshaped my
 				research to connect more closely to real-world applications.
 				<br />
@@ -120,7 +120,7 @@
 				<img src={portrait} class="w-full" alt="Xiangpeng on Mt. Rainier" />
 				<div class="flex flex-wrap justify-between mt-4 gap-2">
 					<div><a href={cv}>CV</a></div>
-					<div><a href="https://blog.haoxp.xyz">Blog</a></div>
+					<div><a href="https://blog.xiangpeng.systems">Blog</a></div>
 					<div class="flex items-center gap-2">
 						<a href="https://t.me/life_xiangpeng">Life</a>
 						<a href="https://aoli.al"><img src={lgbtFlag} class="logo-large" alt="LGBT flag" /></a>
