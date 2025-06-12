@@ -98,7 +98,7 @@
 				database research, and I still love it.
 				<br />
 				<a href="https://pages.cs.wisc.edu/~yxy/">Xiangyao Yu</a> -- my PhD advisor for the first
-				three and a half years.
+				two and a half years.
 				<br />
 				<a href="https://www.cs.cmu.edu/~yixinluo/">Yixin Luo</a> -- my intern mentor @Google. We
 				did great work on database auto-tuning.
