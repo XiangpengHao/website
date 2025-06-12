@@ -24,7 +24,7 @@
 			</blockquote>
 
 			<blockquote class="quote">
-				It is an act of faith to declare the world (academia?) is good, because the evidence is
+				It is an act of faith to declare the world is good, because the evidence is
 				ambivalent. Am I going to act as if it is good? What will happen if I did? The answer is,
 				the more you act out of the proposition that it is good, the better it gets.
 				<footer class="text-sm text-gray-500 mt-2">
