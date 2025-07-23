@@ -36,7 +36,7 @@
 				I'm a fifth year PhD student at the University of Wisconsin-Madison studying computer science
 				with a focus on database/storage systems.
 				<br />
-				My PhD advisor is
+				I'm advised by
 				<a href="https://pages.cs.wisc.edu/~dusseau/">Andrea Arpaci-Dusseau</a>
 				and <a href="https://pages.cs.wisc.edu/~remzi/">Remzi H. Arpaci-Dusseau</a>.
 				<div class="mt-2">
