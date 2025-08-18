@@ -5,6 +5,7 @@
 	import { base } from '$app/paths';
 	import '../app.css';
 	import LiquidCache from '$lib/assets/liquid-cache.png';
+	import Ruby from '$lib/assets/ruby.jpg';
 </script>
 
 <div class="flex justify-center items-center min-h-screen p-4 bg-gray-100">
@@ -88,7 +89,15 @@
 						</div>
 					</div>
 					<div class="md:basis-[30%] md:max-w-[30%]">
-						<img src={portrait} class="w-full md:w-4/5 mx-auto" alt="Xiangpeng on Mt. Rainier" />
+						<img
+							src={portrait}
+							class="w-full md:w-4/5 mx-auto"
+							alt="Xiangpeng and Ruby (his dog)"
+						/>
+						<span class="text-sm text-gray-500"
+							>Xiangpeng and Ruby <a href={Ruby} class="text-gray-600">(more professional photos)</a
+							></span
+						>
 						<div class="flex flex-wrap justify-between mt-4 gap-2">
 							<div><a href={cv}>CV</a></div>
 							<div><a href="https://blog.xiangpeng.systems">Blog</a></div>
