@@ -8,7 +8,7 @@
 </script>
 
 <div class="flex justify-center items-center min-h-screen p-4 bg-gray-100">
-	<div class="max-w-[1000px] w-full bg-white p-4 md:p-8 shadow-sm rounded">
+	<div class="max-w-[1000px] w-full bg-white p-2 md:p-4 shadow-sm rounded">
 		<div class="flex flex-wrap justify-center mb-8">
 			<div class="w-full text-center">
 				<h1 class="text-3xl md:text-4xl font-semibold mb-2">Xiangpeng Hao</h1>
@@ -30,7 +30,7 @@
 					<strong
 						><a href="https://github.com/XiangpengHao/liquid-cache">
 							<img src={LiquidCache} class="h-16 inline" alt="LiquidCache" /></a
-						>-- distributed S3 cache for DataFusion-based systems.
+						>: distributed S3 cache for DataFusion-based systems.
 					</strong>
 				</div>
 				I'm a fifth year PhD student at the University of Wisconsin-Madison studying computer science
@@ -124,19 +124,30 @@
 		</div>
 
 		<div class="flex flex-col md:flex-row mt-4">
-			<div class="card w-full md:w-[700px] leading-normal">
+			<div class="card systems w-full leading-normal">
 				<div class="space-y-8">
 					<div>
-						<div class="mb-4">
-							I build <a href="http://herpolhode.com/rob/utah2000.pdf">systems</a>
+						<div class="mb-4">I build <strong>systems</strong></div>
+						<div>
+							I contribute to open-source:
+							<ol>
+								<li>
+									I co-created and maintain <a href="https://github.com/XiangpengHao/liquid-cache"
+										>LiquidCache</a
+									>, a distributed S3 cache for DataFusion-based systems.
+								</li>
+								<li>I actively contribute to Apache DataFusion, Arrow, and Parquet.</li>
+							</ol>
 						</div>
-						<ol class="mt-2">
+
+						<div class="mt-6">Building principles</div>
+						<ol>
 							<li>
 								People-centric. I build systems for people to {'{'}use | build-upon | contribute{'}'},
 								not just for academic records.
 							</li>
 							<li>
-								Correctness. I code in Rust,
+								Reliability. I code in Rust,
 								<a href="https://github.com/rust-fuzz/cargo-fuzz">fuzz test</a>
 								all the core components, run
 								<a href="https://github.com/awslabs/shuttle">systematic concurrency tests</a> on all
@@ -150,55 +161,20 @@
 						</ol>
 					</div>
 
-					<div>
-						<div class="mb-4">
-							I'm an <a href="https://plato.stanford.edu/entries/existentialism/">existentialist</a>
-						</div>
-						<ul class="mt-2">
-							<li>
-								<strong>Existence Precedes Essence.</strong> We exist for ourselves as self-making or
-								self-defining beings, and we are always in the process of making or defining ourselves
-								through the situated choices we make as our lives unfold.
-							</li>
-							<li>
-								<strong>Freedom.</strong> It is true that we are free to create ourselves, but it is
-								also true that we are already created by our situation.
-							</li>
-							<li>
-								<strong>Nihilism.</strong> (1) individualism and loneliness (2) life is regulated and
-								controlled by faceless bureaucrats.
-							</li>
-						</ul>
-						<p class="mt-4">Leap of faith: Be nice; Be good to society.</p>
-					</div>
-
-					<div>
-						<div class="mb-4">Good reads</div>
-						<ol class="mt-2">
-							<li>
-								<a href="https://www.goodreads.com/en/book/show/17895842">Returning to Reims</a>
-							</li>
-							<li><a href="https://www.goodreads.com/book/show/12505.The_Idiot">The Idiot</a></li>
-						</ol>
-					</div>
-
 					<div class="quote mt-2">
 						It’s the disease of thinking that a really great idea is 90% of the work. And if you
 						just tell all these other people “here’s this great idea,” then of course they can go
 						off and make it happen. And the problem with that is that there’s just a tremendous
 						amount of craftsmanship in between a great idea and a great product. And as you evolve
 						that great idea, it changes and grows. It never comes out like it starts because you
-						learn a lot more as you get into the subtleties of it. And you also find there are
-						tremendous tradeoffs that you have to make... Designing a product is keeping five
-						thousand things in your brain and fitting them all together in new and different ways to
-						get what you want. -- Steve Jobs
+						learn a lot more as you get into the subtleties of it. -- Steve Jobs
 					</div>
 				</div>
 			</div>
-			<div class="card w-full md:w-[300px] leading-normal">
-				<div class="mb-4">I publish papers</div>
-				<div class="overflow-y-auto max-h-[800px] text-sm">
-					<p>
+			<div class="card papers w-full leading-normal">
+				<div class="mb-4">I publish <strong>papers</strong></div>
+				<ol class="overflow-y-auto max-h-[800px]">
+					<li>
 						LiquidCache: Efficient Pushdown Caching for Cloud-Native Data Analytics.<br />
 						<strong>Xiangpeng Hao</strong>, Andrew Lamb, Yibo Wu, Andrea Arpaci-Dusseau, Remzi
 						Arpaci-Dusseau. (VLDB 2025) [<a href="https://github.com/XiangpengHao/liquid-cache"
@@ -208,60 +184,60 @@
 							href="https://github.com/XiangpengHao/liquid-cache/blob/main/dev/doc/liquid-cache-vldb.pdf"
 							>paper</a
 						>]
-					</p>
-					<p>
+					</li>
+					<li>
 						Bf-Tree: A Modern Read-Write-Optimized Concurrent Larger-Than-Memory Range Index.<br />
 						<strong>Xiangpeng Hao</strong>, Badrish Chandramouli. (VLDB 2024) [<a
 							href="https://github.com/XiangpengHao/bf-tree-docs">more</a
 						>]
-					</p>
-					<p>
+					</li>
+					<li>
 						Shadow Filesystems: Recovering from Filesystem Runtime Errors via Robust Alternative
 						Execution.<br />
 						Jing Liu, <strong>Xiangpeng Hao</strong>, Andrea Arpaci-Dusseau, Remzi Arpaci-Dusseau,
 						Tej Chajed. (HotStorage '24)
-					</p>
-					<p>
+					</li>
+					<li>
 						Towards Buffer Management with Tiered Main Memory.<br />
 						<strong>Xiangpeng Hao</strong>, Xinjing Zhou, Xiangyao Yu, Michael Stonebraker. (SIGMOD
 						2024)
-					</p>
+					</li>
 
-					<p>
+					<li>
 						Blink-hash: An Adaptive Hybrid Index for In-Memory Time-Series Databases<br />
 						Hokeun Cha, <strong>Xiangpeng Hao</strong>, Tianzheng Wang, Huanchen Zhang, Aditya
 						Akella, Xiangyao Yu. Proceedings of the VLDB Endowment (VLDB 2023)
-					</p>
+					</li>
 
-					<p>
+					<li>
 						Towards Accelerating Data Intensive Application's Shuffle Process Using SmartNICs <br />
 						Jiaxin Lin, Tao Ji, <strong>Xiangpeng Hao</strong>, Hokeun Cha, Yanfang Le, Xiangyao Yu,
 						Aditya Akella Proceedings of the ACM on Measurement and Analysis of Computing Systems
-					</p>
-					<p>
+					</li>
+					<li>
 						PiBench Online: Interactive Benchmarking of Persistent Memory Indexes (Demo). <br
 						/><strong>Xiangpeng Hao</strong>, Lucas Lersch, Tianzheng Wang, Ismail Oukid. 45th
 						International Conference on Very Large Data Bases (VLDB 2020)
-					</p>
-					<p>
+					</li>
+					<li>
 						DASH: Dynamic and Scalable Hashing on Persistent Memory.<br /> Baotong Lu,
 						<strong>Xiangpeng Hao</strong>, Tianzheng Wang, Eric Lo. 45th International Conference
 						on Very Large Data Bases (VLDB 2020)
-					</p>
-					<p>
+					</li>
+					<li>
 						Evaluating Persistent Memory based Range Indexes.<br /> Lucas Lersch,
 						<strong>Xiangpeng Hao</strong>, Ismail Oukid, Tianzheng Wang, Thomas Willhalm. 45th
 						International Conference on Very Large Data Bases (VLDB 2020)
-					</p>
-					<p>
+					</li>
+					<li>
 						Evaluating Colour Constancy on the new MIST dataset of Multi-Illuminant Scenes.<br />
 						<strong>Xiangpeng Hao</strong>, Brian Funt, Hanxiao Jiang. 27th Color Image Conference
-					</p>
-					<p>
+					</li>
+					<li>
 						A Multi-illuminant Synthetic Image Test Set.<br /> <strong>Xiangpeng Hao</strong>, Brian
 						Funt. Color Research and Application
-					</p>
-				</div>
+					</li>
+				</ol>
 			</div>
 		</div>
 	</div>
@@ -269,6 +245,15 @@
 
 <style>
 	.card {
-		@apply border-2 border-gray-100 p-2 rounded mb-4 md:ml-2;
+		@apply border-2 border-gray-100 p-2 rounded mb-2 md:ml-2;
+	}
+
+	/* Subtle, desaturated borders for systems (blueish) and papers (reddish) */
+	.systems {
+		border-color: rgba(65, 66, 152, 0.15); /* indigo-500 @ 15% */
+	}
+
+	.papers {
+		border-color: rgba(103, 22, 22, 0.15); /* red-500 @ 15% */
 	}
 </style>
