@@ -199,6 +199,17 @@
 				<div class="mb-4">I publish papers</div>
 				<div class="overflow-y-auto max-h-[800px] text-sm">
 					<p>
+						LiquidCache: Efficient Pushdown Caching for Cloud-Native Data Analytics.<br />
+						<strong>Xiangpeng Hao</strong>, Andrew Lamb, Yibo Wu, Andrea Arpaci-Dusseau, Remzi
+						Arpaci-Dusseau. (VLDB 2025) [<a href="https://github.com/XiangpengHao/liquid-cache"
+							>code</a
+						>,
+						<a
+							href="https://github.com/XiangpengHao/liquid-cache/blob/main/dev/doc/liquid-cache-vldb.pdf"
+							>paper</a
+						>]
+					</p>
+					<p>
 						Bf-Tree: A Modern Read-Write-Optimized Concurrent Larger-Than-Memory Range Index.<br />
 						<strong>Xiangpeng Hao</strong>, Badrish Chandramouli. (VLDB 2024) [<a
 							href="https://github.com/XiangpengHao/bf-tree-docs">more</a
