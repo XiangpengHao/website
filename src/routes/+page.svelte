@@ -73,7 +73,6 @@
 													<a href="https://www.bauplanlabs.com">BauPlan</a>
 													<a href="https://www.influxdata.com"> InfluxData </a>
 													<a href="https://spiraldb.com">Spiral</a>
-													<!-- <a href="https://www.titletowntech.com">TitleTownTech</a> -->
 												</div>
 											</td>
 										</tr>
@@ -98,7 +97,7 @@
 							>Xiangpeng and Ruby <a href={Ruby} class="text-gray-600">(more professional photos)</a
 							></span
 						>
-						<div class="flex flex-wrap justify-between mt-4 gap-2">
+						<div class="flex flex-wrap justify-between gap-2">
 							<div><a href={cv}>CV</a></div>
 							<div><a href="https://blog.xiangpeng.systems">Blog</a></div>
 							<div class="flex items-center gap-2">
@@ -113,33 +112,68 @@
 					</div>
 				</div>
 
-				<div class="mt-4">
-					People I have worked closely:
-					<br />
-					<a href="https://www.cs.sfu.ca/~tzwang/">Tianzheng Wang</a>: my undergraduate advisor. He
-					is a rock-star database researcher.
-					<br />
-					<a href="https://pages.cs.wisc.edu/~yxy/">Xiangyao Yu</a>: my PhD advisor for the first
-					two and a half years.
-					<br />
-					<a href="https://www.cs.cmu.edu/~yixinluo/">Yixin Luo</a>: my intern mentor @Google. We
-					did great work on database auto-tuning.
-					<br />
-					<a href="https://www.microsoft.com/en-us/research/people/badrishc/"
-						>Badrish Chandramouli</a
-					>
-					: my intern mentor @MSR. He is a great researcher and
-					<a href="https://blog.xiangpeng.systems/posts/good-advisor/">mentor</a>. He reasons what I
-					said, and his attention to details is incredible.
-					<br />
-					<a href="http://andrew.nerdnetworks.org">Andrew Lamb</a>: my
-					<a href="https://blog.xiangpeng.systems/posts/working-at-influxdata/">intern</a>
-					mentor @InfluxData. His passion and professionalism in DataFusion development have reshaped
-					my research to connect more closely to real-world applications.
-					<br />
+				<div class="flex flex-col md:flex-row">
+					<div class="mt-4 md:basis-[70%] md:max-w-[70%] md:pr-6">
+						<div>People I have worked closely:</div>
+						<div class="text-sm">
+							<a href="https://www.cs.sfu.ca/~tzwang/">Tianzheng Wang</a>: my undergraduate advisor.
+							He is a rock-star database researcher.
+							<br />
+							<a href="https://pages.cs.wisc.edu/~yxy/">Xiangyao Yu</a>: my PhD advisor for the
+							first two and a half years.
+							<br />
+							<a href="https://www.cs.cmu.edu/~yixinluo/">Yixin Luo</a>: my intern mentor @Google.
+							We did great work on database auto-tuning.
+							<br />
+							<a href="https://www.microsoft.com/en-us/research/people/badrishc/"
+								>Badrish Chandramouli</a
+							>
+							: my intern mentor @MSR. He is a great researcher and
+							<a href="https://blog.xiangpeng.systems/posts/good-advisor/">mentor</a>. He reasons
+							what I said, and his attention to details is incredible.
+							<br />
+							<a href="http://andrew.nerdnetworks.org">Andrew Lamb</a>: my
+							<a href="https://blog.xiangpeng.systems/posts/working-at-influxdata/">intern</a>
+							mentor @InfluxData. His passion and professionalism in DataFusion development have reshaped
+							my research to connect more closely to real-world applications.
+							<br />
+						</div>
+					</div>
+					<div class="md:basis-[30%] md:max-w-[30%]">
+						<div>Talks:</div>
+						<ol class="pl-1 overflow-y-auto max-h-[300px] text-sm">
+							<li>
+								2025-08: <a href="https://www.linkedin.com/company/bengaluru-systems/">
+									Bengaluru Systems</a
+								> (LiquidCache)
+							</li>
+							<li>
+								2025-08: <a href="https://dcsystems.wtf">DC Systems</a> (LiquidCache)
+							</li>
+							<li>
+								2025-07: <a href="https://syslab.cs.washington.edu"
+									>University of Washington system lab</a
+								> (LiquidCache)
+							</li>
+							<li>
+								2025-05: <a href="https://madsystems.cs.wisc.edu">UW-Madison</a> (LiquidCache)
+							</li>
+							<li>
+								2025-01: <a href="https://www.cylab.cmu.edu">CMU Cylab</a> (LiquidCache)
+							</li>
+							<li>
+								2025-01: <a href="https://db.cs.cmu.edu">CMU DB group</a> (LiquidCache)
+							</li>
+							<li>
+								2024-12: <a href="https://lu.ma/eq5myc5i">Chicago DataFusion meetup</a> (LiquidCache)
+							</li>
+							<li>
+								2024-06: <a href="https://cornelldb.github.io/dbgrouphp/">Cornell</a>
+								(Bf-Tree)
+							</li>
+						</ol>
+					</div>
 				</div>
-
-				<!-- Many other people helped me along the way, I'm grateful for all of them. -->
 			</div>
 		</div>
 
@@ -275,5 +309,10 @@
 
 	.papers {
 		border-color: rgba(103, 22, 22, 0.15); /* red-500 @ 15% */
+	}
+
+	ol li {
+		padding: 0;
+		margin: 0;
 	}
 </style>
