@@ -112,9 +112,9 @@
 					</div>
 				</div>
 
-				<div class="flex flex-col md:flex-row">
-					<div class="mt-4 md:basis-[70%] md:max-w-[70%] md:pr-6">
-						<div>People I have worked closely:</div>
+				<div class="flex flex-col md:flex-row mt-2">
+					<div class="md:basis-[40%] md:max-w-[40%] md:pr-6">
+						<div>Advisors and mentors:</div>
 						<div class="text-sm">
 							<a href="https://www.cs.sfu.ca/~tzwang/">Tianzheng Wang</a>: my undergraduate advisor.
 							He is a rock-star database researcher.
@@ -139,9 +139,30 @@
 							<br />
 						</div>
 					</div>
-					<div class="md:basis-[30%] md:max-w-[30%]">
+					<div class="md:basis-[25%] md:max-w-[25%]">
+						<div>Students I advise:</div>
+						<ol class="text-sm pl-1">
+							<li>
+								2024-09 - now: <a href="https://www.linkedin.com/in/yibo-wu-226200219/">Yibo Wu</a>
+							</li>
+							<li>
+								2025-01 - now: <a href="https://www.linkedin.com/in/nayak-nikhil/">Nikhil Nayak</a>
+							</li>
+							<li>2025-01 - now: JP Guthi</li>
+							<li>
+								2025-03 - now: <a href="https://www.linkedin.com/in/proteet-paul/">Proteet Paul</a>
+							</li>
+							<li>
+								2025-05 - now: <a href="https://www.linkedin.com/in/hrishikeshh-shinde/"
+									>Hrishikesh Shinde</a
+								>
+							</li>
+							<li>2025-06 - now: Saeshu Karthika Murugan Indumathi</li>
+						</ol>
+					</div>
+					<div class="md:basis-[35%] md:max-w-[35%]">
 						<div>Talks:</div>
-						<ol class="pl-1 overflow-y-auto max-h-[300px] text-sm">
+						<ol class="pl-1 overflow-y-auto max-h-[200px] text-sm">
 							<li>
 								2025-08: <a href="https://www.linkedin.com/company/bengaluru-systems/">
 									Bengaluru Systems</a
@@ -166,6 +187,9 @@
 							</li>
 							<li>
 								2024-12: <a href="https://lu.ma/eq5myc5i">Chicago DataFusion meetup</a> (LiquidCache)
+							</li>
+							<li>
+								2024-12: <a href="https://www.influxdata.com">InfluxData</a> (LiquidCache)
 							</li>
 							<li>
 								2024-06: <a href="https://cornelldb.github.io/dbgrouphp/">Cornell</a>
