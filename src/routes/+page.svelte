@@ -94,7 +94,7 @@
 							alt="Xiangpeng and Ruby (his dog)"
 						/>
 						<span class="text-sm text-gray-500"
-							>Xiangpeng and Ruby <a href={Ruby} class="text-gray-600">(more professional photos)</a
+							>Xiangpeng and Ruby <a href={Ruby} class="text-gray-600">(professional photo)</a
 							></span
 						>
 						<div class="flex flex-wrap justify-between gap-2">
