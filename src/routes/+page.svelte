@@ -163,6 +163,7 @@
 					<div class="md:basis-[35%] md:max-w-[35%]">
 						<div>Talks:</div>
 						<ol class="pl-1 overflow-y-auto max-h-[200px] text-sm">
+							<a href="https://what-is-liquid-cache.xiangpeng.systems">What is LiquidCache?</a>
 							<li>
 								2025-08: <a href="https://www.linkedin.com/company/bengaluru-systems/">
 									Bengaluru Systems</a
@@ -213,6 +214,10 @@
 									I co-created and maintain <a href="https://github.com/XiangpengHao/liquid-cache"
 										>LiquidCache</a
 									>, a distributed pushdown caching for DataFusion.
+								</li>
+								<li>
+									I build <a href="https://parquet-viewer.xiangpeng.systems">Parquet Viewer</a>, an
+									online tool to explore Parquet schema and data.
 								</li>
 								<li>I actively contribute to Apache DataFusion, Arrow, and Parquet.</li>
 							</ol>
