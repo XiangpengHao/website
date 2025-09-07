@@ -106,9 +106,9 @@
 									</td>
 									<td class="border border-gray-300 px-4 py-1">
 										<div class="flex flex-wrap gap-4 items-center">
-											<a href="https://www.bauplanlabs.com">BauPlan</a>
 											<a href="https://www.influxdata.com"> InfluxData </a>
 											<a href="https://spiraldb.com">Spiral</a>
+											<a href="https://www.bauplanlabs.com">BauPlan</a>
 										</div>
 									</td>
 								</tr>
