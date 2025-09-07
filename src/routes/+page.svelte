@@ -46,46 +46,16 @@
 							and <a href="https://pages.cs.wisc.edu/~remzi/">Remzi H. Arpaci-Dusseau</a>.
 						</p>
 						<p>
-							My research focuses on building
+							I build
 							<a href="https://github.com/XiangpengHao/liquid-cache">LiquidCache</a>, a caching
 							infrastructure designed for the next decade of cloud-native analytical systems.
 						</p>
 
-						<div class="mt-4">
-							<div>
-								<strong>
-									<a href="{base}/fund">Funding I raised for my PhD:</a>
-								</strong>
-							</div>
-							<div class="funding-table">
-								<table class="w-full border-collapse border border-gray-300">
-									<thead>
-										<tr class="bg-gray-100">
-											<th class="border border-gray-300 px-4 py-1 text-left">Academic year</th>
-											<th class="border border-gray-300 px-4 py-1 text-left">Funding sources</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td class="border border-gray-300 px-4 py-1">2025-2026</td>
-											<td class="border border-gray-300 px-4 py-1">
-												<div class="flex flex-wrap gap-4 items-center">
-													<a href="https://www.bauplanlabs.com">BauPlan</a>
-													<a href="https://www.influxdata.com"> InfluxData </a>
-													<a href="https://spiraldb.com">Spiral</a>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td class="border border-gray-300 px-4 py-1">2024-2025</td>
-											<td class="border border-gray-300 px-4 py-1">
-												<a href="https://www.influxdata.com"> InfluxData </a>
-											</td>
-										</tr>
-									</tbody>
-								</table>
-							</div>
-						</div>
+						Two passions have governed my research:
+						<ol class="passions-list">
+							<li>To build practical systems for the public good.</li>
+							<li>To pursue and propagate human knowledge.</li>
+						</ol>
 					</div>
 					<div class="md:basis-[30%] md:max-w-[30%]">
 						<img
@@ -109,6 +79,41 @@
 							<div><a href="https://github.com/XiangpengHao">GitHub</a></div>
 							<div><a href="https://www.linkedin.com/in/hao-xiangpeng/">LinkedIn</a></div>
 						</div>
+					</div>
+				</div>
+				<div class="mt-4 mb-4">
+					<div>
+						<strong>
+							<a href="{base}/fund">Funding I raised for my PhD:</a>
+						</strong>
+					</div>
+					<div class="funding-table">
+						<table class="w-full border-collapse border border-gray-300">
+							<thead>
+								<tr class="bg-gray-100">
+									<th class="border border-gray-300 px-4 py-1 text-left w-1/3"></th>
+									<th class="border border-gray-300 px-4 py-1 text-left w-1/3">2024-2025</th>
+									<th class="border border-gray-300 px-4 py-1 text-left w-1/3">2025-2026</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="border border-gray-300 px-4 py-1 font-semibold bg-gray-50"
+										>Funding sources</td
+									>
+									<td class="border border-gray-300 px-4 py-1">
+										<a href="https://www.influxdata.com"> InfluxData </a>
+									</td>
+									<td class="border border-gray-300 px-4 py-1">
+										<div class="flex flex-wrap gap-4 items-center">
+											<a href="https://www.bauplanlabs.com">BauPlan</a>
+											<a href="https://www.influxdata.com"> InfluxData </a>
+											<a href="https://spiraldb.com">Spiral</a>
+										</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
 					</div>
 				</div>
 
@@ -141,7 +146,7 @@
 					</div>
 					<div class="md:basis-[25%] md:max-w-[25%]">
 						<div>Students I advise:</div>
-						<ol class="text-sm pl-1">
+						<ul class="text-sm pl-1">
 							<li>
 								2024-09 - now: <a href="https://www.linkedin.com/in/yibo-wu-226200219/">Yibo Wu</a>
 							</li>
@@ -158,11 +163,11 @@
 								>
 							</li>
 							<li>2025-06 - now: Saeshu Karthika Murugan Indumathi</li>
-						</ol>
+						</ul>
 					</div>
 					<div class="md:basis-[35%] md:max-w-[35%]">
 						<div>Talks:</div>
-						<ol class="pl-1 overflow-y-auto max-h-[200px] text-sm">
+						<ol class="pl-1 overflow-y-auto max-h-[200px] text-sm talks-list">
 							<a href="https://what-is-liquid-cache.xiangpeng.systems">What is LiquidCache?</a>
 							<li>
 								2025-08: <a href="https://www.linkedin.com/company/bengaluru-systems/">
@@ -340,8 +345,25 @@
 		border-color: rgba(103, 22, 22, 0.15); /* red-500 @ 15% */
 	}
 
-	ol li {
+	ul {
+		list-style-type: none;
+	}
+
+	ul li {
 		padding: 0;
 		margin: 0;
+	}
+
+	.talks-list li {
+		margin: 0;
+	}
+
+	ol li {
+		padding: 0;
+		margin: 0.5em;
+	}
+
+	.passions-list li {
+		margin: 0em;
 	}
 </style>
