@@ -27,13 +27,6 @@
 
 		<div class="flex flex-col md:flex-row">
 			<div class="card w-full leading-normal">
-				<div class="text-cyan-800 mb-4" style="font-family: Helvetica, Arial, sans-serif">
-					<strong
-						><a href="https://github.com/XiangpengHao/liquid-cache">
-							<img src={LiquidCache} class="h-16 inline" alt="LiquidCache" /></a
-						>: distributed pushdown caching for DataFusion.
-					</strong>
-				</div>
 				<div class="flex flex-col md:flex-row">
 					<div class="md:basis-[70%] md:max-w-[70%] md:pr-6">
 						<p>
