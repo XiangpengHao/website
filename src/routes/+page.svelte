@@ -51,6 +51,8 @@
 							not only proposing ideas that advance academic knowledge, but also
 							<span class="font-bold">delivering them</span> through careful engineering that pays
 							attention to every detail. I have built:
+							<a href="https://dl.acm.org/doi/10.1145/3639286">caching structures</a>
+							(SIGMOD '24) for multi-tier memory systems,
 							<a href="https://github.com/XiangpengHao/bf-tree-docs">BfTree</a>
 							(VLDB '24), a novel range index that leverages variable-length buffer pools for efficient
 							caching;
