@@ -28,39 +28,43 @@
 		<div class="flex flex-col md:flex-row">
 			<div class="card w-full leading-normal">
 				<div class="flex flex-col md:flex-row">
-					<div class="md:basis-[70%] md:max-w-[70%] md:pr-6">
+					<div class="md:basis-[65%] md:max-w-[65%] md:pr-6">
+						<p class="mb-0">
+							📢📢📢 <a href="https://aoli.al">My partner (Ao)</a> and I are on the tenure track faculty
+							job market this year, both seeking positions in computer science and related areas.
+						</p>
+						<hr class="my-2" />
+
 						<p>
-							I'm a fifth year PhD student at the University of Wisconsin-Madison studying computer
+							I'm a final year PhD student at the University of Wisconsin-Madison studying computer
 							science with a focus on database/storage systems.
 						</p>
 						<p>
 							I'm advised by
 							<a href="https://pages.cs.wisc.edu/~dusseau/">Andrea Arpaci-Dusseau</a>
-							and <a href="https://pages.cs.wisc.edu/~remzi/">Remzi H. Arpaci-Dusseau</a>.
+							and <a href="https://pages.cs.wisc.edu/~remzi/">Remzi Arpaci-Dusseau</a>.
 						</p>
 						<p>
-							I build
-							<a href="https://github.com/XiangpengHao/liquid-cache">LiquidCache</a>, a caching
-							infrastructure designed for the next decade of cloud-native analytical systems.
+							I build <span class="font-bold"
+								>efficient, cost-effective storage systems for the cloud</span
+							>. My research treats <span class="font-bold">real-world impact</span> as a core goal:
+							not only proposing ideas that advance academic knowledge, but also
+							<span class="font-bold">delivering them</span> through careful engineering that pays
+							attention to every detail. I have built:
+							<a href="https://github.com/XiangpengHao/bf-tree-docs">BfTree</a>
+							(VLDB '24), a novel range index that leverages variable-length buffer pools for efficient
+							caching;
+							<a href="https://github.com/XiangpengHao/liquid-cache">LiquidCache</a> (VLDB '26), a novel
+							pushdown-based disaggregated caching system that evaluates filters on cache servers before
+							transmitting data to compute nodes.
 						</p>
-
-						Two passions have governed my research:
-						<ol class="passions-list">
-							<li>To build practical systems for the public good.</li>
-							<li>To pursue and propagate human knowledge.</li>
-						</ol>
 					</div>
-					<div class="md:basis-[30%] md:max-w-[30%]">
-						<img
-							src={portrait}
-							class="w-full md:w-4/5 mx-auto"
-							alt="Xiangpeng and Ruby (his dog)"
-						/>
-						<span class="text-sm text-gray-500"
-							>Xiangpeng and Ruby <a href={Ruby} class="text-gray-600">(professional photo)</a
-							></span
-						>
-						<div class="flex flex-wrap justify-between gap-2">
+					<div class="md:basis-[35%] md:max-w-[35%]">
+						<img src={portrait} class="mx-auto w-3/5" alt="Xiangpeng and Ruby (his dog)" />
+						<div class="text-sm text-gray-500 text-center">
+							Xiangpeng and Ruby <a href={Ruby} class="text-gray-600">(professional photo)</a>
+						</div>
+						<div class="flex flex-wrap justify-between gap-2 mt-2">
 							<div><a href={cv}>CV</a></div>
 							<div><a href="https://blog.xiangpeng.systems">Blog</a></div>
 							<div class="flex items-center gap-2">
@@ -71,6 +75,13 @@
 							</div>
 							<div><a href="https://github.com/XiangpengHao">GitHub</a></div>
 							<div><a href="https://www.linkedin.com/in/hao-xiangpeng/">LinkedIn</a></div>
+						</div>
+						<div class="mt-2">
+							Two passions that guide my research:
+							<ol class="passions-list">
+								<li>To build practical systems for the public good.</li>
+								<li>To pursue and propagate human knowledge.</li>
+							</ol>
 						</div>
 					</div>
 				</div>
@@ -146,7 +157,7 @@
 							<li>
 								2025-01 - now: <a href="https://www.linkedin.com/in/nayak-nikhil/">Nikhil Nayak</a>
 							</li>
-							<li>2025-01 - now: JP Guthi</li>
+							<li>2025-01 - now: <a href="https://github.com/JP-Reddy">JP Guthi</a></li>
 							<li>
 								2025-03 - now: <a href="https://www.linkedin.com/in/proteet-paul/">Proteet Paul</a>
 							</li>
@@ -361,7 +372,13 @@
 		margin: 0.5em;
 	}
 
+	.passions-list {
+		padding: 0;
+		margin: 0;
+	}
+
 	.passions-list li {
 		margin: 0em;
+		padding: 0;
 	}
 </style>
