@@ -47,7 +47,7 @@
 						<p>
 							I build <span class="font-bold"
 								>efficient, cost-effective storage systems for the cloud</span
-							>. My research treats <span class="font-bold">real-world impact</span> as a core goal:
+							>. My research treats <span class="font-bold">practical impact</span> as a core goal:
 							not only proposing ideas that advance academic knowledge, but also
 							<span class="font-bold">delivering them</span> through careful engineering that pays
 							attention to every detail. I have built:
