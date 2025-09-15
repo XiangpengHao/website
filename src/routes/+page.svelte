@@ -54,8 +54,7 @@
 							<a href="https://dl.acm.org/doi/10.1145/3639286">caching structures</a>
 							(SIGMOD '24) for multi-tier memory systems,
 							<a href="https://github.com/XiangpengHao/bf-tree-docs">BfTree</a>
-							(VLDB '24), a novel range index that leverages variable-length buffer pools for efficient
-							caching;
+							(VLDB '24), a range index that leverages variable-length buffer pools for efficient caching;
 							<a href="https://github.com/XiangpengHao/liquid-cache">LiquidCache</a> (VLDB '26), a novel
 							pushdown-based disaggregated caching system that evaluates filters on cache servers before
 							transmitting data to compute nodes.
