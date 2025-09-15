@@ -156,6 +156,11 @@
 								>
 							</li>
 							<li>2025-06 - now: Saeshu Karthika Murugan Indumathi</li>
+							<li>
+								2025-09 - now: <a href="https://www.linkedin.com/in/zixuan-peng-7a59a3330/"
+									>Zixuan Peng</a
+								>
+							</li>
 						</ul>
 					</div>
 					<div class="md:basis-[35%] md:max-w-[35%]">
