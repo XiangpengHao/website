@@ -30,8 +30,8 @@
 				<div class="flex flex-col md:flex-row">
 					<div class="md:basis-[65%] md:max-w-[65%] md:pr-6">
 						<p class="mb-0">
-							📢📢📢 <a href="https://aoli.al">My partner (Ao)</a> and I are on the tenure track faculty
-							job market this year, both seeking positions in computer science and related areas.
+							📢📢📢 I'm on the tenure track faculty job market this year, seeking positions in
+							computer science and related areas.
 						</p>
 						<hr class="my-2" />
 
