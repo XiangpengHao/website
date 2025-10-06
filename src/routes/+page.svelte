@@ -2,6 +2,7 @@
 	import portrait from '$lib/assets/xiangpeng.jpg';
 	import lgbtFlag from '$lib/assets/lgbt.gif';
 	import cv from '$lib/assets/Xiangpeng_Hao_CV.pdf';
+	import liquidCacheTalk from '$lib/assets/LiquidCache.pdf';
 	import { base } from '$app/paths';
 	import { onMount } from 'svelte';
 	import '../app.css';
@@ -142,9 +143,13 @@
 		</div>
 
 		<div class="flex flex-col mt-4">
-		<div class="card w-full leading-normal" bind:this={pubCardEl}>
+			<div class="card w-full leading-normal" bind:this={pubCardEl}>
 				<div class="text-xl font-bold">Publications</div>
-			<ol class="max-h-[600px]" class:overflow-y-auto={enablePubScroll} class:overflow-y-hidden={!enablePubScroll}>
+				<ol
+					class="max-h-[600px]"
+					class:overflow-y-auto={enablePubScroll}
+					class:overflow-y-hidden={!enablePubScroll}
+				>
 					<li>
 						LiquidCache: Efficient Pushdown Caching for Cloud-Native Data Analytics.<br />
 						<strong>Xiangpeng Hao</strong>, Andrew Lamb, Yibo Wu, Andrea Arpaci-Dusseau, Remzi
@@ -290,11 +295,62 @@
 								>
 							</li>
 						</ul>
+						<div class="mt-4">
+							<div>Advisors and mentors:</div>
+							<div>
+								<a href="https://www.cs.sfu.ca/~tzwang/">Tianzheng Wang</a>: my undergraduate
+								advisor. He is a rock-star database researcher.
+								<br />
+								<a href="https://pages.cs.wisc.edu/~yxy/">Xiangyao Yu</a>: my PhD advisor for the
+								first two and a half years.
+								<br />
+								<a href="https://www.cs.cmu.edu/~yixinluo/">Yixin Luo</a>: my intern mentor @Google.
+								We did great work on database auto-tuning.
+								<br />
+								<a href="https://www.microsoft.com/en-us/research/people/badrishc/"
+									>Badrish Chandramouli</a
+								>
+								: my intern mentor @MSR. He is a great researcher and
+								<a href="https://blog.xiangpeng.systems/posts/good-advisor/">mentor</a>.
+								<br />
+								<a href="http://andrew.nerdnetworks.org">Andrew Lamb</a>: my
+								<a href="https://blog.xiangpeng.systems/posts/working-at-influxdata/">intern</a>
+								mentor @InfluxData. His passion and professionalism in DataFusion development have reshaped
+								my research to connect more closely to real-world applications.
+								<br />
+							</div>
+						</div>
 					</div>
 					<div>
 						<div>Talks:</div>
-						<ol class="pl-1 overflow-y-auto max-h-[300px] talks-list">
-							<a href="https://what-is-liquid-cache.xiangpeng.systems">What is LiquidCache?</a>
+						<ol>
+							<li>
+								<a href={liquidCacheTalk}
+									>LiquidCache: Efficient Pushdown Caching for Cloud-Native Data Analytics</a
+								>
+								(research talk)
+							</li>
+							<li>
+								<a href="https://what-is-liquid-cache.xiangpeng.systems">What is LiquidCache?</a> (industry
+								talk)
+							</li>
+							<li>
+								<a href="https://intro-data-system.xiangpeng.systems"
+									>Introduction to efficient data systems</a
+								> (lecture)
+							</li>
+						</ol>
+
+						<ol class="pl-1 overflow-y-auto max-h-[300px] talks-list mt-4">
+							<li>
+								2025-10: <a href="https://x.com/tianyin_xu/status/1974687219123388911"
+									>UIUC Systems Research Mini Workshop</a
+								> (LiquidCache)
+							</li>
+							<li>
+								2025-10: <a href="https://cs423-uiuc.github.io/fall25/">UIUC CS423</a>(intro to data
+								system)
+							</li>
 							<li>
 								2025-08: <a href="https://www.linkedin.com/company/bengaluru-systems/">
 									Bengaluru Systems</a
@@ -329,31 +385,6 @@
 							</li>
 						</ol>
 					</div>
-					<div>
-						<div>Advisors and mentors:</div>
-						<div>
-							<a href="https://www.cs.sfu.ca/~tzwang/">Tianzheng Wang</a>: my undergraduate advisor.
-							He is a rock-star database researcher.
-							<br />
-							<a href="https://pages.cs.wisc.edu/~yxy/">Xiangyao Yu</a>: my PhD advisor for the
-							first two and a half years.
-							<br />
-							<a href="https://www.cs.cmu.edu/~yixinluo/">Yixin Luo</a>: my intern mentor @Google.
-							We did great work on database auto-tuning.
-							<br />
-							<a href="https://www.microsoft.com/en-us/research/people/badrishc/"
-								>Badrish Chandramouli</a
-							>
-							: my intern mentor @MSR. He is a great researcher and
-							<a href="https://blog.xiangpeng.systems/posts/good-advisor/">mentor</a>.
-							<br />
-							<a href="http://andrew.nerdnetworks.org">Andrew Lamb</a>: my
-							<a href="https://blog.xiangpeng.systems/posts/working-at-influxdata/">intern</a>
-							mentor @InfluxData. His passion and professionalism in DataFusion development have reshaped
-							my research to connect more closely to real-world applications.
-							<br />
-						</div>
-					</div>
 				</div>
 			</div>
 		</div>
@@ -363,15 +394,6 @@
 <style>
 	.card {
 		@apply border-2 border-gray-100 p-2 rounded mb-2 md:ml-2;
-	}
-
-	/* Subtle, desaturated borders for systems (blueish) and papers (reddish) */
-	.systems {
-		border-color: rgba(65, 66, 152, 0.15); /* indigo-500 @ 15% */
-	}
-
-	.papers {
-		border-color: rgba(103, 22, 22, 0.15); /* red-500 @ 15% */
 	}
 
 	ul {
