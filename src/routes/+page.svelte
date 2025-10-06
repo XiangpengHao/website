@@ -96,9 +96,11 @@
 							(SIGMOD '24) for multi-tier memory systems,
 							<a href="https://github.com/XiangpengHao/bf-tree-docs">BfTree</a>
 							(VLDB '24), a range index that leverages variable-length buffer pools for efficient caching;
-							<a href="https://github.com/XiangpengHao/liquid-cache">LiquidCache</a> (VLDB '26), a novel
-							pushdown-based disaggregated caching system that evaluates filters on cache servers before
-							transmitting data to compute nodes.
+							<a href="https://github.com/XiangpengHao/liquid-cache">LiquidCache</a> (VLDB '25), a
+							novel pushdown-based disaggregated caching system that evaluates filters on cache
+							servers before transmitting data to compute nodes.
+							<a href="https://github.com/XiangpengHao/liquid-cache">LiquidEvict</a> (ongoing), a new
+							caching mechanism that scales efficiently to modern storage.
 						</p>
 					</div>
 					<div class="md:basis-[35%] md:max-w-[35%]">
@@ -153,7 +155,7 @@
 					<li>
 						LiquidCache: Efficient Pushdown Caching for Cloud-Native Data Analytics.<br />
 						<strong>Xiangpeng Hao</strong>, Andrew Lamb, Yibo Wu, Andrea Arpaci-Dusseau, Remzi
-						Arpaci-Dusseau. (VLDB 2026) [<a href="https://github.com/XiangpengHao/liquid-cache"
+						Arpaci-Dusseau. (VLDB 2025) [<a href="https://github.com/XiangpengHao/liquid-cache"
 							>code</a
 						>,
 						<a
