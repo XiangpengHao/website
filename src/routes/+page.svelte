@@ -71,8 +71,8 @@
 				<div class="flex flex-col md:flex-row">
 					<div class="md:basis-[65%] md:max-w-[65%] md:pr-6">
 						<p class="mb-0">
-							📢📢📢 I'm on the tenure track faculty job market this year, seeking positions in
-							computer science and related areas.
+							📢📢📢 My partner (<a href="https://aoli.al">Ao Li</a>) and I are on the tenure track
+							faculty job market this year, seeking positions in computer science and related areas.
 						</p>
 						<hr class="my-2" />
 
@@ -338,8 +338,8 @@
 							</li>
 							<li>
 								<a href="https://intro-data-system.xiangpeng.systems"
-									>Introduction to efficient data systems</a
-								> (lecture)
+									>Introduction to efficient data systems
+								</a> (lecture)
 							</li>
 						</ol>
 
