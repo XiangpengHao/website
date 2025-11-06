@@ -345,6 +345,13 @@
 
 						<ol class="pl-1 overflow-y-auto max-h-[300px] talks-list mt-4">
 							<li>
+								2025-11: <a
+									href="https://hpi.de/rabl/teaching/winter-term-2025-26/joint-database-systems-seminar-with-tu-darmstadt/xiangpeng-hao.html"
+									>DB systems seminar at HPI and TUD
+								</a>(LiquidCache)
+							</li>
+							<li>2025-11: <a href="https://www.bauplanlabs.com">Bauplan Labs</a> (LiquidCache)</li>
+							<li>
 								2025-10: <a href="https://x.com/tianyin_xu/status/1974687219123388911"
 									>UIUC Systems Research Mini Workshop</a
 								> (LiquidCache)
