@@ -347,7 +347,7 @@
 							<li>
 								2025-11: <a
 									href="https://hpi.de/rabl/teaching/winter-term-2025-26/joint-database-systems-seminar-with-tu-darmstadt/xiangpeng-hao.html"
-									>DB systems seminar at HPI and TUD
+									>DB systems seminar at HPI and TUDa
 								</a>(LiquidCache)
 							</li>
 							<li>2025-11: <a href="https://www.bauplanlabs.com">Bauplan Labs</a> (LiquidCache)</li>
