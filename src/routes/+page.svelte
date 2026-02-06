@@ -7,6 +7,7 @@
 	import { onMount } from 'svelte';
 	import '../app.css';
 	import LiquidCache from '$lib/assets/liquid-cache.png';
+	import SqueezeCache from '$lib/assets/squeeze-cache.pdf';
 	import Ruby from '$lib/assets/ruby.jpg';
 
 	let pubCardEl: HTMLElement | null = null;
@@ -152,6 +153,13 @@
 					class:overflow-y-auto={enablePubScroll}
 					class:overflow-y-hidden={!enablePubScroll}
 				>
+					<li>
+						SqueezeCache: Beyond “Optimal" Eviction for Data Analytics<br />
+						<strong>Xiangpeng Hao</strong>, Nikhil Nayak, Proteet Paul, JP Guthi, Andrew Lamb, Jacopo
+						Tagliabue, Andrea Arpaci-Dusseau, Remzi Arpaci-Dusseau. (in submission) [<a
+							href="https://github.com/XiangpengHao/liquid-cache">code</a
+						>, <a href={SqueezeCache}>paper</a>]
+					</li>
 					<li>
 						LiquidCache: Efficient Pushdown Caching for Cloud-Native Data Analytics.<br />
 						<strong>Xiangpeng Hao</strong>, Andrew Lamb, Yibo Wu, Andrea Arpaci-Dusseau, Remzi
