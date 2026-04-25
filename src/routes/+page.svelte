@@ -71,11 +71,11 @@
 			<div class="card w-full leading-normal">
 				<div class="flex flex-col md:flex-row">
 					<div class="md:basis-[65%] md:max-w-[65%] md:pr-6">
-						<p class="mb-0">
+						<!-- <p class="mb-0">
 							📢📢📢 My partner (<a href="https://aoli.al">Ao Li</a>) and I are on the tenure track
 							faculty job market this year, seeking positions in computer science and related areas.
-						</p>
-						<hr class="my-2" />
+						</p> -->
+						<!-- <hr class="my-2" /> -->
 
 						<p>
 							I'm a final year PhD student at the University of Wisconsin-Madison studying computer
@@ -155,8 +155,8 @@
 				>
 					<li>
 						SqueezeCache: Beyond “Optimal" Eviction for Data Analytics<br />
-						<strong>Xiangpeng Hao</strong>, Nikhil Nayak, Proteet Paul, JP Guthi, Andrew Lamb, Jacopo
-						Tagliabue, Andrea Arpaci-Dusseau, Remzi Arpaci-Dusseau. (in submission) [<a
+						<strong>Xiangpeng Hao</strong>, Nikhil Nayak, Proteet Paul, JP Guthi, Andrew Lamb,
+						Jacopo Tagliabue, Andrea Arpaci-Dusseau, Remzi Arpaci-Dusseau. (in submission) [<a
 							href="https://github.com/XiangpengHao/liquid-cache">code</a
 						>, <a href={SqueezeCache}>paper</a>]
 					</li>
@@ -284,24 +284,35 @@
 						<div>Students:</div>
 						<ul class="pl-1">
 							<li>
-								2024-09 - now: <a href="https://www.linkedin.com/in/yibo-wu-226200219/">Yibo Wu</a>
+								2024-09 - 2026-05: <a href="https://www.linkedin.com/in/yibo-wu-226200219/"
+									>Yibo Wu</a
+								>
 							</li>
 							<li>
-								2025-01 - now: <a href="https://www.linkedin.com/in/nayak-nikhil/">Nikhil Nayak</a>
+								2025-01 - 2026-05: <a href="https://www.linkedin.com/in/nayak-nikhil/"
+									>Nikhil Nayak</a
+								>
 							</li>
-							<li>2025-01 - now: <a href="https://github.com/JP-Reddy">JP Guthi</a></li>
+							<li>2025-01 - 2026-05: <a href="https://github.com/JP-Reddy">JP Guthi</a></li>
 							<li>
-								2025-03 - now: <a href="https://www.linkedin.com/in/proteet-paul/">Proteet Paul</a>
+								2025-03 - 2026-05: <a href="https://www.linkedin.com/in/proteet-paul/"
+									>Proteet Paul</a
+								>
 							</li>
 							<li>
-								2025-05 - now: <a href="https://www.linkedin.com/in/hrishikeshh-shinde/"
+								2025-05 - 2026-05: <a href="https://www.linkedin.com/in/hrishikeshh-shinde/"
 									>Hrishikesh Shinde</a
 								>
 							</li>
-							<li>2025-06 - now: Saeshu Karthika Murugan Indumathi</li>
+							<li>2025-06 - 2026-05: Saeshu Karthika Murugan Indumathi</li>
 							<li>
-								2025-09 - now: <a href="https://www.linkedin.com/in/zixuan-peng-7a59a3330/"
+								2025-09 - 2026-05: <a href="https://www.linkedin.com/in/zixuan-peng-7a59a3330/"
 									>Zixuan Peng</a
+								>
+							</li>
+							<li>
+								2025-09 - 2026-05: <a href="https://www.linkedin.com/in/brandon-wee-53699a238/"
+									>Brandon Wee</a
 								>
 							</li>
 						</ul>
