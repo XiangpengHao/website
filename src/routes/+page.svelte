@@ -58,12 +58,6 @@
 				<p class="text-lg md:text-xl text-gray-700 mb-1">
 					(he/him, pronunciations: Shyang-pung How)
 				</p>
-				<div class="text-sm md:text-base text-gray-600">
-					<a href="{base}/life" class="block md:inline md:ml-6 text-blue-600">Non-academic</a>
-					<a href="{base}/work-with-me" class="block md:inline md:ml-6 text-blue-600"
-						>Work with me</a
-					>
-				</div>
 			</div>
 		</div>
 
@@ -78,11 +72,12 @@
 						<!-- <hr class="my-2" /> -->
 
 						<p>
-							I'm a final year PhD student at the University of Wisconsin-Madison studying computer
-							science with a focus on database/storage systems.
+							I currently work at <a href="https://spiraldb.com">SpiralDB</a> to build the data
+							layer for physical AI.
 						</p>
 						<p>
-							I'm advised by
+							I received my PhD in computer science from the University of Wisconsin-Madison,
+							focusing on database/storage systems, advised by
 							<a href="https://pages.cs.wisc.edu/~dusseau/">Andrea Arpaci-Dusseau</a>
 							and <a href="https://pages.cs.wisc.edu/~remzi/">Remzi Arpaci-Dusseau</a>.
 						</p>
@@ -92,16 +87,7 @@
 							>. My research treats <span class="font-bold">practical impact</span> as a core goal:
 							not only proposing ideas that advance academic knowledge, but also
 							<span class="font-bold">delivering them</span> through careful engineering that pays
-							attention to every detail. I have built:
-							<a href="https://dl.acm.org/doi/10.1145/3639286">caching structures</a>
-							(SIGMOD '24) for multi-tier memory systems,
-							<a href="https://github.com/XiangpengHao/bf-tree-docs">BfTree</a>
-							(VLDB '24), a range index that leverages variable-length buffer pools for efficient caching;
-							<a href="https://github.com/XiangpengHao/liquid-cache">LiquidCache</a> (VLDB '25), a
-							novel pushdown-based disaggregated caching system that evaluates filters on cache
-							servers before transmitting data to compute nodes.
-							<a href="https://github.com/XiangpengHao/liquid-cache">LiquidEvict</a> (ongoing), a new
-							caching mechanism that scales efficiently to modern storage.
+							attention to every detail.
 						</p>
 					</div>
 					<div class="md:basis-[35%] md:max-w-[35%]">
@@ -120,6 +106,7 @@
 							</div>
 							<div><a href="https://github.com/XiangpengHao">GitHub</a></div>
 							<div><a href="https://www.linkedin.com/in/hao-xiangpeng/">LinkedIn</a></div>
+							<div><a href="{base}/life">Non-academic</a></div>
 						</div>
 						<div class="mt-3">
 							Two passions that guide my research:
@@ -127,18 +114,6 @@
 								<li>To build practical systems for the public good.</li>
 								<li>To pursue and propagate human knowledge.</li>
 							</ol>
-
-							<div class="mt-3"><a href="{base}/fund">Funding:</a></div>
-							<ul class="pl-0">
-								<li>
-									2025-2026: <a href="https://www.influxdata.com">InfluxData</a>,
-									<a href="https://spiraldb.com">Spiral</a>,
-									<a href="https://www.bauplanlabs.com">BauPlan</a>
-								</li>
-								<li>
-									2024-2025: <a href="https://www.influxdata.com">InfluxData</a>
-								</li>
-							</ul>
 						</div>
 					</div>
 				</div>
@@ -153,6 +128,18 @@
 					class:overflow-y-auto={enablePubScroll}
 					class:overflow-y-hidden={!enablePubScroll}
 				>
+					<li>
+						White-Box Caching for Cloud Data Systems.<br />
+						<strong>Xiangpeng Hao</strong>. PhD dissertation, University of Wisconsin-Madison, 2026.
+						[<a
+							href="https://www.proquest.com/openview/f75dff946e6f46dff57d20556e68a030/1?pq-origsite=gscholar&cbl=18750&diss=y"
+							>proquest</a
+						>,
+						<a
+							href="https://www.lulu.com/shop/xiangpeng-hao/white-box-caching-for-cloud-data-systems/hardcover/product-57qn42z.html"
+							>hardcover</a
+						>]
+					</li>
 					<li>
 						SqueezeCache: Beyond “Optimal" Eviction for Data Analytics<br />
 						<strong>Xiangpeng Hao</strong>, Nikhil Nayak, Proteet Paul, JP Guthi, Andrew Lamb,
@@ -279,141 +266,75 @@
 		</div>
 		<div class="flex flex-col md:flex-row mt-4">
 			<div class="card w-full leading-normal">
-				<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-					<div>
-						<div>Students:</div>
-						<ul class="pl-1">
-							<li>
-								2024-09 - 2026-05: <a href="https://www.linkedin.com/in/yibo-wu-226200219/"
-									>Yibo Wu</a
-								>
-							</li>
-							<li>
-								2025-01 - 2026-05: <a href="https://www.linkedin.com/in/nayak-nikhil/"
-									>Nikhil Nayak</a
-								>
-							</li>
-							<li>2025-01 - 2026-05: <a href="https://github.com/JP-Reddy">JP Guthi</a></li>
-							<li>
-								2025-03 - 2026-05: <a href="https://www.linkedin.com/in/proteet-paul/"
-									>Proteet Paul</a
-								>
-							</li>
-							<li>
-								2025-05 - 2026-05: <a href="https://www.linkedin.com/in/hrishikeshh-shinde/"
-									>Hrishikesh Shinde</a
-								>
-							</li>
-							<li>2025-06 - 2026-05: Saeshu Karthika Murugan Indumathi</li>
-							<li>
-								2025-09 - 2026-05: <a href="https://www.linkedin.com/in/zixuan-peng-7a59a3330/"
-									>Zixuan Peng</a
-								>
-							</li>
-							<li>
-								2025-09 - 2026-05: <a href="https://www.linkedin.com/in/brandon-wee-53699a238/"
-									>Brandon Wee</a
-								>
-							</li>
-						</ul>
-						<div class="mt-4">
-							<div>Advisors and mentors:</div>
-							<div>
-								<a href="https://www.cs.sfu.ca/~tzwang/">Tianzheng Wang</a>: my undergraduate
-								advisor. He is a rock-star database researcher.
-								<br />
-								<a href="https://pages.cs.wisc.edu/~yxy/">Xiangyao Yu</a>: my PhD advisor for the
-								first two and a half years.
-								<br />
-								<a href="https://www.cs.cmu.edu/~yixinluo/">Yixin Luo</a>: my intern mentor @Google.
-								We did great work on database auto-tuning.
-								<br />
-								<a href="https://www.microsoft.com/en-us/research/people/badrishc/"
-									>Badrish Chandramouli</a
-								>
-								: my intern mentor @MSR. He is a great researcher and
-								<a href="https://blog.xiangpeng.systems/posts/good-advisor/">mentor</a>.
-								<br />
-								<a href="http://andrew.nerdnetworks.org">Andrew Lamb</a>: my
-								<a href="https://blog.xiangpeng.systems/posts/working-at-influxdata/">intern</a>
-								mentor @InfluxData. His passion and professionalism in DataFusion development have reshaped
-								my research to connect more closely to real-world applications.
-								<br />
-							</div>
-						</div>
-					</div>
-					<div>
-						<div>Talks:</div>
-						<ol>
-							<li>
-								<a href={liquidCacheTalk}
-									>LiquidCache: Efficient Pushdown Caching for Cloud-Native Data Analytics</a
-								>
-								(research talk)
-							</li>
-							<li>
-								<a href="https://what-is-liquid-cache.xiangpeng.systems">What is LiquidCache?</a> (industry
-								talk)
-							</li>
-							<li>
-								<a href="https://intro-data-system.xiangpeng.systems"
-									>Introduction to efficient data systems
-								</a> (lecture)
-							</li>
-						</ol>
+				<div>Talks:</div>
+				<ol>
+					<li>
+						<a href={liquidCacheTalk}
+							>LiquidCache: Efficient Pushdown Caching for Cloud-Native Data Analytics</a
+						>
+						(research talk)
+					</li>
+					<li>
+						<a href="https://what-is-liquid-cache.xiangpeng.systems">What is LiquidCache?</a> (industry
+						talk)
+					</li>
+					<li>
+						<a href="https://intro-data-system.xiangpeng.systems"
+							>Introduction to efficient data systems
+						</a> (lecture)
+					</li>
+				</ol>
 
-						<ol class="pl-1 overflow-y-auto max-h-[300px] talks-list mt-4">
-							<li>
-								2025-11: <a
-									href="https://hpi.de/rabl/teaching/winter-term-2025-26/joint-database-systems-seminar-with-tu-darmstadt/xiangpeng-hao.html"
-									>DB systems seminar at HPI and TUDa
-								</a>(LiquidCache)
-							</li>
-							<li>2025-11: <a href="https://www.bauplanlabs.com">Bauplan Labs</a> (LiquidCache)</li>
-							<li>
-								2025-10: <a href="https://x.com/tianyin_xu/status/1974687219123388911"
-									>UIUC Systems Research Mini Workshop</a
-								> (LiquidCache)
-							</li>
-							<li>
-								2025-10: <a href="https://cs423-uiuc.github.io/fall25/">UIUC CS423</a>(intro to data
-								system)
-							</li>
-							<li>
-								2025-08: <a href="https://www.linkedin.com/company/bengaluru-systems/">
-									Bengaluru Systems</a
-								> (LiquidCache)
-							</li>
-							<li>
-								2025-08: <a href="https://dcsystems.wtf">DC Systems</a> (LiquidCache)
-							</li>
-							<li>
-								2025-07: <a href="https://syslab.cs.washington.edu"
-									>University of Washington system lab</a
-								> (LiquidCache)
-							</li>
-							<li>
-								2025-05: <a href="https://madsystems.cs.wisc.edu">UW-Madison</a> (LiquidCache)
-							</li>
-							<li>
-								2025-01: <a href="https://www.cylab.cmu.edu">CMU Cylab</a> (LiquidCache)
-							</li>
-							<li>
-								2025-01: <a href="https://db.cs.cmu.edu">CMU DB group</a> (LiquidCache)
-							</li>
-							<li>
-								2024-12: <a href="https://lu.ma/eq5myc5i">Chicago DataFusion meetup</a> (LiquidCache)
-							</li>
-							<li>
-								2024-12: <a href="https://www.influxdata.com">InfluxData</a> (LiquidCache)
-							</li>
-							<li>
-								2024-06: <a href="https://cornelldb.github.io/dbgrouphp/">Cornell</a>
-								(Bf-Tree)
-							</li>
-						</ol>
-					</div>
-				</div>
+				<ol class="pl-1 overflow-y-auto max-h-[300px] talks-list mt-4">
+					<li>
+						2025-11: <a
+							href="https://hpi.de/rabl/teaching/winter-term-2025-26/joint-database-systems-seminar-with-tu-darmstadt/xiangpeng-hao.html"
+							>DB systems seminar at HPI and TUDa
+						</a>(LiquidCache)
+					</li>
+					<li>2025-11: <a href="https://www.bauplanlabs.com">Bauplan Labs</a> (LiquidCache)</li>
+					<li>
+						2025-10: <a href="https://x.com/tianyin_xu/status/1974687219123388911"
+							>UIUC Systems Research Mini Workshop</a
+						> (LiquidCache)
+					</li>
+					<li>
+						2025-10: <a href="https://cs423-uiuc.github.io/fall25/">UIUC CS423</a>(intro to data
+						system)
+					</li>
+					<li>
+						2025-08: <a href="https://www.linkedin.com/company/bengaluru-systems/">
+							Bengaluru Systems</a
+						> (LiquidCache)
+					</li>
+					<li>
+						2025-08: <a href="https://dcsystems.wtf">DC Systems</a> (LiquidCache)
+					</li>
+					<li>
+						2025-07: <a href="https://syslab.cs.washington.edu"
+							>University of Washington system lab</a
+						> (LiquidCache)
+					</li>
+					<li>
+						2025-05: <a href="https://madsystems.cs.wisc.edu">UW-Madison</a> (LiquidCache)
+					</li>
+					<li>
+						2025-01: <a href="https://www.cylab.cmu.edu">CMU Cylab</a> (LiquidCache)
+					</li>
+					<li>
+						2025-01: <a href="https://db.cs.cmu.edu">CMU DB group</a> (LiquidCache)
+					</li>
+					<li>
+						2024-12: <a href="https://lu.ma/eq5myc5i">Chicago DataFusion meetup</a> (LiquidCache)
+					</li>
+					<li>
+						2024-12: <a href="https://www.influxdata.com">InfluxData</a> (LiquidCache)
+					</li>
+					<li>
+						2024-06: <a href="https://cornelldb.github.io/dbgrouphp/">Cornell</a>
+						(Bf-Tree)
+					</li>
+				</ol>
 			</div>
 		</div>
 	</div>
