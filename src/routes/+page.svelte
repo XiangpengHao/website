@@ -56,8 +56,7 @@
 			<div class="w-full text-center">
 				<h1 class="text-3xl md:text-4xl font-semibold mb-2">Xiangpeng Hao</h1>
 				<p class="text-lg md:text-xl text-gray-700 mb-1">
-					(he/him, pronunciations: Shyang-pung How; Xiangpeng pronounced like
-					<a href="https://illinois.edu/">Champaign</a>)
+					(he/him, pronunciations: Champaign How)
 				</p>
 			</div>
 		</div>
@@ -76,10 +75,6 @@
 							I now work as Founder and CEO of
 							<a href="https://dvm.run">Deterministic Machines, Inc.</a>. Deterministic Machines
 							builds a deterministic Linux kernel and hypervisor.
-						</p>
-						<p>
-							Previously, I worked at <a href="https://spiraldb.com">SpiralDB</a> to build the data layer
-							for physical AI.
 						</p>
 						<p>
 							I received my PhD in computer science from the University of Wisconsin-Madison,
